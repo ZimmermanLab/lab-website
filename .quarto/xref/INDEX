@@ -1,0 +1,44 @@
+{
+  "projects/project_2/index.qmd": {
+    "index.html": "3ab4d8d5"
+  },
+  "projects/index.qmd": {
+    "index.html": "e0a0a939"
+  },
+  "projects/pkg_1/index.qmd": {
+    "index.html": "a9ac9c75"
+  },
+  "projects/project_1/index.qmd": {
+    "index.html": "ab9080e7"
+  },
+  "projects/pkg_2/index.qmd": {
+    "index.html": "b91813b9"
+  },
+  "talks/talk_2/index.qmd": {
+    "index.html": "094973a1"
+  },
+  "talks/index.qmd": {
+    "index.html": "d1e6b6ed"
+  },
+  "talks/talk_1/index.qmd": {
+    "index.html": "491cf336"
+  },
+  "index.qmd": {
+    "index.html": "400c3390"
+  },
+  "blog/post-with-code/index.qmd": {
+    "index.html": "8c74c98b"
+  },
+  "blog/welcome/index.qmd": {
+    "index.html": "3bbd3d12"
+  },
+  "about.qmd": {
+    "about.html": "fe9c26bc"
+  },
+  "about_template.qmd": {
+    "about_template.html": "84aca562"
+  },
+  "blog.qmd": {
+    "blog.html": "954779e9"
+  }
+}

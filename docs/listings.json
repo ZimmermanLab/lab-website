@@ -4,6 +4,14 @@
     "items": [
       "/projects/project_1/index.html",
       "/projects/project_2/index.html",
+      "/projects/project_3/index.html",
+      "/projects/project_4/index.html",
+      "/projects/project_5/index.html",
+      "/projects/project_6/index.html",
+      "/projects/project_7/index.html",
+      "/projects/project_8/index.html",
+      "/projects/project_9/index.html",
+      "/projects/project_10/index.html",
       "/projects/pkg_1/index.html",
       "/projects/pkg_2/index.html"
     ]
@@ -13,6 +21,23 @@
     "items": [
       "/talks/talk_1/index.html",
       "/talks/talk_2/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/project_10/index.html",
+      "/people/project_1/index.html",
+      "/people/project_2/index.html",
+      "/people/project_3/index.html",
+      "/people/project_4/index.html",
+      "/people/project_5/index.html",
+      "/people/project_6/index.html",
+      "/people/project_7/index.html",
+      "/people/project_8/index.html",
+      "/people/project_9/index.html",
+      "/people/pkg_1/index.html",
+      "/people/pkg_2/index.html"
     ]
   },
   {

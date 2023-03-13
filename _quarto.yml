@@ -4,10 +4,10 @@ project:
 
 website:
   page-navigation: true
-  title: "Hello :)"
+  title: "Zimmerman Lab"
 
   page-footer:
-    left: "&copy; Copyright 2022, Author"
+    left: "CC-BY 4.0, Naupaka Zimmerman"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   sidebar:
@@ -17,15 +17,6 @@ website:
     collapse-level: 1
     contents:
 
-      - text: "Projects"
-        href: projects/index.qmd
-
-      - text: "Talks"
-        href: talks/index.qmd
-
-      - text: "Blog"
-        href: blog.qmd
-
       - section: "About"
         contents:
           - text: "About me"
@@ -33,6 +24,14 @@ website:
           - text: "This template"
             href: about_template.qmd
 
+      - text: "Projects"
+        href: projects/index.qmd
+
+      - text: "People"
+        href: people/index.qmd
+
+      - text: "Blog"
+        href: blog.qmd
 
 format:
   html:

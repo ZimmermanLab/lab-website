@@ -1,0 +1,146 @@
+---
+title: "People"
+description: |
+  This page provides a mix of two types of listing, grouped by `id`.
+listing:
+  - id: pi
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_10
+    type: grid
+    grid-item-border: false
+  
+  - id: current_grad_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_1
+    type: grid
+    grid-item-border: false
+
+  - id: alum_grad_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_2
+      - project_3
+      - project_4
+      - project_5
+    type: grid
+    grid-item-border: false    
+    
+  - id: current_ug_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_6
+    type: grid
+    grid-item-border: false
+
+  - id: alum_ug_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_7
+      - project_8
+      - project_9
+    type: grid
+    grid-item-border: false
+
+  - id: alum_hs_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_9
+    type: grid
+    grid-item-border: false
+  
+  - id: packages
+    max-description-length: 80
+    image-height: 250px
+    fields: [title, description]
+    contents: 
+      - pkg_1
+      - pkg_2
+    type: table
+    grid-item-border: false
+    sort-ui: false
+    filter-ui: false
+---
+
+## PI
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#pi}
+:::
+
+## Current Graduate Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#current_grad_students}
+:::
+
+## Current Undergraduate Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#current_ug_students}
+:::
+
+## Alumni
+
+### Graduate Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#alum_grad_students}
+:::
+
+### Undergraduate Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#alum_ug_students}
+:::
+
+### High School Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#alum_hs_students}
+:::
+
+## Table listing
+
+This is an example of **table** listing. 
+
+### Packages 
+
+::: {#packages}
+:::
+
+
+
+
+

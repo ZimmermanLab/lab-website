@@ -1,15 +1,31 @@
 ---
-title: "Projects"
+title: "People"
 description: |
   This page provides a mix of two types of listing, grouped by `id`.
 listing:
-  - id: ehr
+  - id: grad_students
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
       - project_1
       - project_2
+      - project_3
+      - project_4
+      - project_5
+    type: grid
+    grid-item-border: false
+    
+  - id: ug_students
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
+    contents: 
+      - project_6
+      - project_7
+      - project_8
+      - project_9
+      - project_10
     type: grid
     grid-item-border: false
     
@@ -24,20 +40,27 @@ listing:
     grid-item-border: false
     sort-ui: false
     filter-ui: false
-    
 ---
 
 
 
-## Grid listing
+## Graduate Students
 
 This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
 
 It is convenient to use `id` to link to multiple folders. 
 
-::: {#ehr}
+::: {#grad_students}
 :::
 
+## Undergraduate Students
+
+This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+
+It is convenient to use `id` to link to multiple folders. 
+
+::: {#ug_students}
+:::
 
 ## Table listing
 

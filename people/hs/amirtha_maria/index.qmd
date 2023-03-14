@@ -1,7 +1,7 @@
 ---
 title: "Amirtha Maria"
-categories: [news, code, analysis]
+categories: [people]
 image: "amirtha.jpg"
 ---
 
-In this project I work on Machine Learning methods to predict in-hospital mortality. 
+Phyllosphere bacteria of cover crops in an organic system; effects of aquatic nutrient levels on chlorophyll concentration across NEON sites. 

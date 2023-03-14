@@ -1,0 +1,29 @@
+---
+title: "Teaching"
+format: 
+  html:
+    code-fold: false
+    code-tools: false
+bibliography: ../references.bib
+---
+
+## Teaching Philosophy
+
+Modern pedagogical research suggests that the primary role of teachers is not to teach, which implies the conveyance of a polished set of knowledge, but rather to facilitate learning. Deep learning and true understanding of concepts come from individuals confronting inconsistencies in the way they currently think a set of ideas fit together. Thus, the role of a teacher is to help students identify these areas where understanding is incomplete and then help them develop the skills of critical thinking and a facility with the tools that will allow the students to create new mental structures for themselves. Ultimately, the best teachers can instill in students the cognitive and technical skills, and more importantly the motivation and self-confidence, to enable them to become life-long, self-directed learners. 
+
+## Project and Inquiry Based Learning
+
+## Computational Training
+
+I use a practice-based integration of experiential, quantitative, and computational literacy as a core tenet of my own approach to teaching. This is not only because such an approach was recommended in these two reports; I also co-authored a study that found that many students in Ecology felt that their exposure to quantitative (mathematical, statistical, computational) approaches to scientific practice was inadequate [@barraquand2014] and wished they had taken more such courses as undergraduates. Quantitative and computational literacy is particularly useful because it is a tool that makes it easier to figure out what it is that we don't yet understand or know. 
+
+My conviction that computational skills are empowering for students and scientists at all levels have also grown out of numerous extramural teaching and training experiences over the past 10 years. The most formative of these for me have been my experiences with Software and Data Carpentry. These organizations (collectively, the Carpentries) are global, non-profit, volunteer organizations whose mission it is to help teach scientists best practices for research computing. The practical applications of the skills we teach (scripting in python or R, scripting and navigating the shell, version control using git and GitHub, and structured data and databases) are immediately recognized, and many researchers have said they wished they had learned these skills much sooner in their studies or careers [@jordan2017]. Beyond the Carpentries, I have also taught these computational skills in numerous workshops at national (Ecological Society of America) meetings, and as an invited instructor at several week-long Data Institutes at the National Ecological Observatory Network in Boulder, CO, where I helped teach ecologists at all career stages how to work with the large-scale remote sensing datasets produced by NEON. I have contributed to reproducible research curricula through in-person participation in workshops and hackathons at UC Berkeley's BIDS (Berkeley Institute for Data Science), and online through peer code review through the ROpenSci initiative.
+
+## Specification Grading
+
+
+
+## Creating Belonging
+
+Engaging diverse trainees---at the undergraduate, graduate, and postgraduate levels---in a course of education that is structured around building in each of them the skills and habits of mind necessary to enable self-directed learning enables them to go on to apply those in all areas of their own lives, and in turn to impact others. The benefit is not just to the student, but to those the student interacts with now and into the future.
+

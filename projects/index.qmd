@@ -1,77 +1,57 @@
 ---
-title: "People"
+title: "Projects"
 description: |
-  This page provides a mix of two types of listing, grouped by `id`.
+  An overview of some of the research areas in the lab.
 listing:
-  - id: grad_students
+  - id: microbial_biogeography
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_1
-      - project_2
-      - project_3
-      - project_4
-      - project_5
+      - biogeography/hawaii
+      - biogeography/sf
+      - biogeography/bay_area
     type: grid
     grid-item-border: false
+    grid-columns: 2
     
-  - id: ug_students
+  - id: ecological_function
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_6
-      - project_7
-      - project_8
-      - project_9
-      - project_10
+      - function/populus_physiology
+      - function/neon_soils
+      - function/organic_agriculture
     type: grid
     grid-item-border: false
+    grid-columns: 2
     
-  - id: packages
-    max-description-length: 80
-    image-height: 250px
-    fields: [title, description]
+  - id: computational_training
+    max-description-length: 500
+    image-height: 150px
+    fields: [image, title, description]
     contents: 
-      - pkg_1
-      - pkg_2
-    type: table
+      - training/data4ecology
+      - training/carpentries
+    type: grid
     grid-item-border: false
-    sort-ui: false
-    filter-ui: false
+    grid-columns: 2  
 ---
 
 
 
-## Graduate Students
+## Microbial Biogeography
 
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
-
-::: {#grad_students}
+::: {#microbial_biogeography}
 :::
 
-## Undergraduate Students
+## Ecological Function
 
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
-
-::: {#ug_students}
+::: {#ecological_function}
 :::
 
-## Table listing
+## Computational Training
 
-This is an example of **table** listing. 
-
-### Packages 
-
-::: {#packages}
+::: {#computational_training}
 :::
-
-
-
-
-

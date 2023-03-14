@@ -45,6 +45,13 @@ listing:
       - ug/natalie_ashburner_wright
       - ug/christina_tran
       - ug/emma_gibson
+      - ug/emre_ovet
+      - ug/julian_murdzek
+      - ug/marcello_kuan
+      - ug/nivedita_ghosh
+      - ug/reina_rios
+      - ug/sayeh_jafari
+      - ug/victoria_lamar
     type: grid
     grid-item-border: false
     grid-columns: 2
@@ -61,20 +68,12 @@ listing:
 ---
 ![Pre-COVID Lab Group Meeting](lab.jpg)
 
-## PI
-
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
+## Principal Investigator
 
 ::: {#pi}
 :::
 
 ## Current Undergraduate Students
-
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
 
 ::: {#current_ug_students}
 :::
@@ -83,27 +82,15 @@ It is convenient to use `id` to link to multiple folders.
 
 ### Graduate Students
 
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
-
 ::: {#alum_grad_students}
 :::
 
 ### Undergraduate Students
 
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
-
 ::: {#alum_ug_students}
 :::
 
 ### High School Students
-
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
 
 ::: {#alum_hs_students}
 :::

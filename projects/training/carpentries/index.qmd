@@ -1,0 +1,7 @@
+---
+title: "The Carpentries"
+categories: [projects, training]
+image: "git_pres.jpg"
+---
+
+Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods. 

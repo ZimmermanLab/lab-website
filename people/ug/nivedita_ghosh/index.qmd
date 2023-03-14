@@ -1,0 +1,7 @@
+---
+title: "Nivedita Ghosh"
+categories: [people]
+image: "usf.jpg"
+---
+
+Nutrient analyses from a soil microcosm drought experiment. 

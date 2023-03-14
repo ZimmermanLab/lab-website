@@ -1,0 +1,7 @@
+---
+title: "Julian Murdzek"
+categories: [people]
+image: "usf.jpg"
+---
+
+Fungal endophytes of *Metrosideros excelsa* across San Francisco. 

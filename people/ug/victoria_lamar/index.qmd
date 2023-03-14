@@ -1,0 +1,7 @@
+---
+title: "Victoria Lamar"
+categories: [people]
+image: "victoria.jpg"
+---
+
+Public health impacts of air quality and urban aerial microbiomes in San Francisco. 

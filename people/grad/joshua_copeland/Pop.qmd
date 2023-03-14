@@ -1,0 +1,7 @@
+---
+title: "Joshua Copeland"
+categories: [people]
+image: "josh.jpg"
+---
+
+Community ecology and VOC production by endophytes of *Populus* spp. 

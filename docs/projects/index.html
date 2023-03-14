@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This page provides a mix of two types of listing, grouped by id.">
+<meta name="description" content="An overview of some of the research areas in the lab.">
 
-<title>Zimmerman Lab - People</title>
+<title>Zimmerman Lab - Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../people/index.html" rel="next">
-<link href="../about_template.html" rel="prev">
+<link href="../teaching/index.html" rel="next">
+<link href="../people/index.html" rel="prev">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -43,6 +43,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -65,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-grad_students .list');
+    const listingTargetEl = window.document.querySelector('#listing-microbial_biogeography .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-grad_students'] = new List('listing-grad_students', options);
+    window['quarto-listings']['listing-microbial_biogeography'] = new List('listing-microbial_biogeography', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -93,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ug_students .list');
+    const listingTargetEl = window.document.querySelector('#listing-ecological_function .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -106,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ug_students'] = new List('listing-ug_students', options);
+    window['quarto-listings']['listing-ecological_function'] = new List('listing-ecological_function', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -121,20 +123,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-packages .list');
+    const listingTargetEl = window.document.querySelector('#listing-computational_training .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-packages'] = new List('listing-packages', options);
+    window['quarto-listings']['listing-computational_training'] = new List('listing-computational_training', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -159,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">People</h1>
+      <h1 class="quarto-secondary-nav-title">Projects</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -171,9 +173,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">Zimmerman Lab</a> 
-    </div>
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../files/zlab_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -182,31 +184,6 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">About me</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about_template.html" class="sidebar-item-text sidebar-link">This template</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">Projects</a>
-  </div>
-</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../people/index.html" class="sidebar-item-text sidebar-link">People</a>
@@ -214,7 +191,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../blog.html" class="sidebar-item-text sidebar-link">Blog</a>
+  <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">Projects</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../teaching/index.html" class="sidebar-item-text sidebar-link">Teaching</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../join.html" class="sidebar-item-text sidebar-link">Join the Lab</a>
   </div>
 </li>
     </ul>
@@ -226,12 +213,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link active" data-scroll-target="#graduate-students">Graduate Students</a></li>
-  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
-  <li><a href="#table-listing" id="toc-table-listing" class="nav-link" data-scroll-target="#table-listing">Table listing</a>
-  <ul class="collapse">
-  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
-  </ul></li>
+  <li><a href="#microbial-biogeography" id="toc-microbial-biogeography" class="nav-link active" data-scroll-target="#microbial-biogeography">Microbial Biogeography</a></li>
+  <li><a href="#ecological-function" id="toc-ecological-function" class="nav-link" data-scroll-target="#ecological-function">Ecological Function</a></li>
+  <li><a href="#computational-training" id="toc-computational-training" class="nav-link" data-scroll-target="#computational-training">Computational Training</a></li>
   </ul>
 </nav>
     </div>
@@ -240,12 +224,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">People</h1>
+<h1 class="title d-none d-lg-block">Projects</h1>
 </div>
 
 <div>
   <div class="description">
-    <p>This page provides a mix of two types of listing, grouped by <code>id</code>.</p>
+    <p>An overview of some of the research areas in the lab.</p>
   </div>
 </div>
 
@@ -260,92 +244,56 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="graduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
-<p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
-<p>It is convenient to use <code>id</code> to link to multiple folders.</p>
-<div id="listing-grad_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.06">
-<a href="../projects/project_1/index.html" class="quarto-grid-link">
+<section id="microbial-biogeography" class="level2">
+<h2 class="anchored" data-anchor-id="microbial-biogeography">Microbial Biogeography</h2>
+<div id="listing-microbial_biogeography" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="projects,biogeography" data-listing-file-modified-sort="1678826532358" data-listing-reading-time-sort="0.08">
+<a href="../projects/biogeography/bay_area/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_1/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/biogeography/bay_area/josh_field_sampling.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_1
+Bay Area sampling of <em>Populus</em> endophytes
 </h5>
 <div class="card-text listing-description">
-In this project I use EHR to explore the hospital transfers.
+Quantifying the effects of host genetics on foliar fungal communities in a <em>Populus</em> hybrid zone.
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_2/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="projects,biogeography" data-listing-file-modified-sort="1678827201168" data-listing-reading-time-sort="0.05">
+<a href="../projects/biogeography/hawaii/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_2/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/biogeography/hawaii/lehua.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Biogeography of <em>Metrosideros</em> endophytes in Hawaiʻi
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+Biogeography of tropical fungal endophytes at the landscape scale.
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_3/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="projects,biogeography" data-listing-file-modified-sort="1678827283877" data-listing-reading-time-sort="0.08">
+<a href="../projects/biogeography/sf/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_3/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/biogeography/sf/downtown_sampling.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Urban Biogeography of fungal endophytes in San Francisco
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_4/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/project_4/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-project_2
-</h5>
-<div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_5/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/project_5/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-project_2
-</h5>
-<div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.
 </div>
 </div>
 </div>
@@ -357,92 +305,56 @@ No matching items
 </div>
 </div>
 </section>
-<section id="undergraduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h2>
-<p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
-<p>It is convenient to use <code>id</code> to link to multiple folders.</p>
-<div id="listing-ug_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_6/index.html" class="quarto-grid-link">
+<section id="ecological-function" class="level2">
+<h2 class="anchored" data-anchor-id="ecological-function">Ecological Function</h2>
+<div id="listing-ecological_function" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678825605255" data-listing-reading-time-sort="0.075">
+<a href="../projects/function/populus_physiology/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_6/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/function/populus_physiology/populus_transpiration_natalie.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Endophyte effects on host physiology in <em>Populus</em>
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance.
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_7/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="projects,function" data-listing-file-modified-sort="1678826513275" data-listing-reading-time-sort="0.07">
+<a href="../projects/function/neon_soils/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_7/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/function/neon_soils/neon_licor.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+NEON Soil CO<sub>2</sub> Efflux
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+Modeling and measuring soil CO<sub>2</sub> efflux across National Ecological Observatory Network (NEON) sites.
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_8/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="projects,function" data-listing-file-modified-sort="1678826497089" data-listing-reading-time-sort="0.06">
+<a href="../projects/function/organic_agriculture/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../projects/project_8/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../projects/function/organic_agriculture/srf.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Plant and soil microbes in organic agriculture
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_9/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/project_9/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-project_2
-</h5>
-<div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../projects/project_10/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../projects/project_10/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-project_2
-</h5>
-<div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+Looking at the effects of plant-associated microbes in an organic cropping system.
 </div>
 </div>
 </div>
@@ -454,44 +366,45 @@ No matching items
 </div>
 </div>
 </section>
-<section id="table-listing" class="level2">
-<h2 class="anchored" data-anchor-id="table-listing">Table listing</h2>
-<p>This is an example of <strong>table</strong> listing.</p>
-<section id="packages" class="level3">
-<h3 class="anchored" data-anchor-id="packages">Packages</h3>
-<div id="listing-packages" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666681200000" data-listing-file-modified-sort="1678239884612" data-listing-reading-time-sort="0.025" data-listing-title-sort="pkg_1" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../projects/pkg_1/index.html" class="title">pkg_1</a>
-</td>
-<td class="listing-description">
-This package does this.
-</td>
-</tr>
-<tr data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1666681200000" data-listing-file-modified-sort="1678239884612" data-listing-reading-time-sort="0.02" data-listing-title-sort="pkg_2" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../projects/pkg_2/index.html" class="title">pkg_2</a>
-</td>
-<td class="listing-description">
-This package does this.
-</td>
-</tr>
-</tbody>
-
-</table>
+<section id="computational-training" class="level2">
+<h2 class="anchored" data-anchor-id="computational-training">Computational Training</h2>
+<div id="listing-computational_training" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="projects,training" data-listing-file-modified-sort="1678826482235" data-listing-reading-time-sort="0.065">
+<a href="../projects/training/data4ecology/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../projects/training/data4ecology/student_presentation.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data4Ecology
+</h5>
+<div class="card-text listing-description">
+Building a web-based platform for introducing computational training in undergraduate ecology courses.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="projects,training" data-listing-file-modified-sort="1678827353269" data-listing-reading-time-sort="0.08">
+<a href="../projects/training/carpentries/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../projects/training/carpentries/git_pres.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Carpentries
+</h5>
+<div class="card-text listing-description">
+Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -499,7 +412,6 @@ No matching items
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -638,21 +550,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../about_template.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">This template</span>
+      <a href="../people/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">People</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../people/index.html" class="pagination-link">
-        <span class="nav-page-text">People</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../teaching/index.html" class="pagination-link">
+        <span class="nav-page-text">Teaching</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">CC-BY 4.0, Naupaka Zimmerman</div>   
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left"><i class="fa-regular fa-copyright" aria-label="copyright"></i> 2023 Naupaka Zimmerman, <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> CC-BY 4.0</a></div>   
+    <div class="nav-footer-right">This page is built with ️🌱🍄📊 and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

@@ -7,31 +7,31 @@ website:
   title: "Zimmerman Lab"
 
   page-footer:
-    left: "CC-BY 4.0, Naupaka Zimmerman"
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "{{< fa regular copyright >}} 2023 Naupaka Zimmerman, [{{< fa brands creative-commons-by >}} CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    right: "This page is built with ️🌱🍄📊 and [Quarto](https://quarto.org/)."
 
   sidebar:
+    logo: files/zlab_logo.png
     pinned: true
     align: center
     style: "docked"
     collapse-level: 1
     contents:
 
-      - section: "About"
-        contents:
-          - text: "About me"
-            href: about.qmd
-          - text: "This template"
-            href: about_template.qmd
+      - text: "People"
+        href: people/index.qmd
 
       - text: "Projects"
         href: projects/index.qmd
 
-      - text: "People"
-        href: people/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
 
-      - text: "Blog"
-        href: blog.qmd
+      - text: "Open Science"
+        hrf: open_science/index.qmd
+
+      - text: "Join the Lab"
+        href: join.qmd
 
 format:
   html:

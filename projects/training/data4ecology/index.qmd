@@ -1,0 +1,7 @@
+---
+title: "Data4Ecology"
+categories: [projects, training]
+image: "student_presentation.jpg"
+---
+
+Building a web-based platform for introducing computational training in undergraduate ecology courses. 

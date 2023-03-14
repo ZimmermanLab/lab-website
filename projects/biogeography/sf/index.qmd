@@ -1,0 +1,7 @@
+---
+title: "Urban Biogeography of fungal endophytes in San Francisco"
+categories: [projects, biogeography]
+image: "downtown_sampling.jpg"
+---
+
+Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.

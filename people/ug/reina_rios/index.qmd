@@ -1,0 +1,7 @@
+---
+title: "Reina Rios"
+categories: [people]
+image: "usf.jpg"
+---
+
+Experimental inoculation of *Arabidopsis thaliana* with endophytes and their effects on VOC signaling. 

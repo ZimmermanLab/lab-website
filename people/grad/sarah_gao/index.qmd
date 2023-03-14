@@ -1,7 +1,7 @@
 ---
 title: "Sarah Gao"
-categories: [news, code, analysis]
+categories: [people]
 image: "sarah.jpg"
 ---
 
-In this project I work on Machine Learning methods to predict in-hospital mortality. 
+Biogeochemistry and microbial ecology of interacting drought and cover crop amendment in an organic farming system. 

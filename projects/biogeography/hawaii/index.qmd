@@ -1,0 +1,7 @@
+---
+title: "Biogeography of *Metrosideros* endophytes in Hawaiʻi"
+categories: [projects, biogeography]
+image: "lehua.jpg"
+---
+
+Biogeography of tropical fungal endophytes at the landscape scale. 

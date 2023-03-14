@@ -1,0 +1,7 @@
+---
+title: "Sayeh Jafari"
+categories: [people]
+image: "usf.jpg"
+---
+
+Experimental inoculation of *Populus trichocarpa* with endophytes to quantify effects on drought stress. 

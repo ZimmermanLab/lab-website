@@ -2,25 +2,14 @@
   {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/project_1/index.html",
-      "/projects/project_2/index.html",
-      "/projects/project_3/index.html",
-      "/projects/project_4/index.html",
-      "/projects/project_5/index.html",
-      "/projects/project_6/index.html",
-      "/projects/project_7/index.html",
-      "/projects/project_8/index.html",
-      "/projects/project_9/index.html",
-      "/projects/project_10/index.html",
-      "/projects/pkg_1/index.html",
-      "/projects/pkg_2/index.html"
-    ]
-  },
-  {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/talk_1/index.html",
-      "/talks/talk_2/index.html"
+      "/projects/biogeography/bay_area/index.html",
+      "/projects/biogeography/hawaii/index.html",
+      "/projects/biogeography/sf/index.html",
+      "/projects/function/populus_physiology/index.html",
+      "/projects/function/neon_soils/index.html",
+      "/projects/function/organic_agriculture/index.html",
+      "/projects/training/data4ecology/index.html",
+      "/projects/training/carpentries/index.html"
     ]
   },
   {
@@ -28,22 +17,22 @@
     "items": [
       "/people/naupaka_zimmerman/index.html",
       "/people/ug/ava_albert/index.html",
-      "/people/grad/derek_newberger/index.html",
-      "/people/grad/joshua_copeland/index.html",
-      "/people/grad/sarah_gao/index.html",
       "/people/grad/ashley_sango/index.html",
+      "/people/grad/derek_newberger/index.html",
       "/people/grad/jason_krastins/index.html",
+      "/people/grad/joshua_copeland/Pop.html",
+      "/people/grad/sarah_gao/index.html",
       "/people/ug/christina_tran/index.html",
       "/people/ug/emma_gibson/index.html",
+      "/people/ug/emre_ovet/index.html",
+      "/people/ug/julian_murdzek/index.html",
+      "/people/ug/marcello_kuan/index.html",
       "/people/ug/natalie_ashburner_wright/index.html",
+      "/people/ug/nivedita_ghosh/index.html",
+      "/people/ug/reina_rios/index.html",
+      "/people/ug/sayeh_jafari/index.html",
+      "/people/ug/victoria_lamar/index.html",
       "/people/hs/amirtha_maria/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/post-with-code/index.html",
-      "/blog/welcome/index.html"
     ]
   }
 ]

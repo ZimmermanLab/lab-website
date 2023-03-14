@@ -1,6 +1,6 @@
 ---
 title: "Phyllosphere Microbial Ecology @ USF"
-image: zlab_logo.png
+image: files/stomata.jpg
 about:
   id: hero-heading
   template: trestles
@@ -15,15 +15,21 @@ about:
     - icon: github
       text: Personal Github
       href: https://github.com/naupaka
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=ejJECSQAAAAJ
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0003-2168-6390
 ---
 
 ::: {#hero-heading}
 
 Welcome to the website for the Zimmerman Lab at the [University of San Francisco](https://www.usfca.edu/). Our research focuses on understanding the ecology and evolution of plant-associated microbes, with a special affection for foliar endophytic fungi.
 
-The lab is led by [Dr. Naupaka Zimmerman](https://www.usfca.edu/faculty/naupaka-zimmerman) and is made up of [many other wonderful folks](people/index.qmd), including undergraduate researchers, Master's students, and sometimes even high school students or other visiting researchers.
+The lab is led by [Dr. Naupaka Zimmerman](people/naupaka_zimmerman/index.qmd) and is made up of [many other wonderful folks](people/index.qmd), including undergraduate researchers, Master's students, and sometimes even high school students or other visiting researchers.
 
-We use a range of approaches in our work, ranging from field work and greenhouse studies, to molecular lab work, and through to bioinformatic analyses.
+We use a range of approaches in our [research](projects/index.qmd) on plant-associated microbial communities. We often start with field work locally in the Bay Area, at [NEON Field Sites](https://www.neonscience.org/field-sites) across the country, or at USF's [Star Route Farms](https://www.usfca.edu/faculty-research/star-route-farms). After culturing and isolating microbes, we use manipulative greenhouse and growth-chamber studies, culture- and molecular-based lab work, bright field and electron microscopy, and finally a good amount of computational and bioinformatic analyses to probe microbial community composition and function.
+
+Information about joining the lab is [available here](join.qmd). Note that while USF does not have any PhD programs, we do have a thesis-based [MS in Biology](https://www.usfca.edu/arts-sciences/programs/graduate/biology) program. 
 
 :::
 

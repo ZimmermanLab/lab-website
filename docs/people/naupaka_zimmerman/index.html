@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -38,6 +57,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../../">Zimmerman Lab</a> 
-    </div>
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../files/zlab_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -91,31 +112,6 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">About</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about.html" class="sidebar-item-text sidebar-link">About me</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../about_template.html" class="sidebar-item-text sidebar-link">This template</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../projects/index.html" class="sidebar-item-text sidebar-link">Projects</a>
-  </div>
-</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../people/index.html" class="sidebar-item-text sidebar-link">People</a>
@@ -123,7 +119,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../blog.html" class="sidebar-item-text sidebar-link">Blog</a>
+  <a href="../../projects/index.html" class="sidebar-item-text sidebar-link">Projects</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../teaching/index.html" class="sidebar-item-text sidebar-link">Teaching</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../join.html" class="sidebar-item-text sidebar-link">Join the Lab</a>
   </div>
 </li>
     </ul>
@@ -140,9 +146,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Naupaka Zimmerman</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">news</div>
-    <div class="quarto-category">code</div>
-    <div class="quarto-category">analysis</div>
+    <div class="quarto-category">people</div>
   </div>
   </div>
 
@@ -158,12 +162,40 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>In this project I work on Machine Learning methods to predict in-hospital mortality.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Biogeography, ecological function, and evolution of plant microbiomes.</p>
+<p><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> <a href="../../files/Zimmerman_CV.pdf">Complete CV (updated March 2023)</a></p>
+<p><img src="laptop_nz.jpg" align="left" width="40%" style="margin:15px"> Naupaka Zimmerman is currently an Associate Professor in the <a href="https://www.usfca.edu/arts-sciences/programs/undergraduate/biology/faculty">Biology Department</a> at the <a href="https://usfca.edu">University of San Francisco</a>, where he <a href="../../teaching/index.html">teaches</a> courses in Microbiology, Ecology, Urban Ecology, California Ecology, and Bioinformatics (among others). He is broadly interested in the intersection between microbial community and ecosystem ecology, and is currently examining it in the context of endophytic fungal communities via next-gen molecular methods. While these communities are incredibly diverse, particularly in the tropics, we know very little about their functions in ecosystems. Using a combination of field surveys and greenhouse manipulations, he is currently engaged in <a href="../../projects/index.html">a number of different projects</a> trying to understand what these enigmatic organisms are up to.</p>
+<p>Prior to USF, he was a postdoc at the University of Arizona as a <a href="http://www.moore.org">Gordon and Betty Moore Fellow</a> of the <a href="https://www.lsrf.org">Life Sciences Research Foundation</a>, working in <a href="http://www.arnoldlab.net">the Arnold Lab</a>. His work there focused on understanding the mechanisms of interaction between foliar endophytes and host <span class="citation" data-cites="huang2018">(<a href="#ref-huang2018" role="doc-biblioref">Huang, Zimmerman, and Arnold 2018</a>)</span> in black cottonwood (<em>Populus trichocarpa</em>), and on the circumglobal biogeography of boreal endophytes <span class="citation" data-cites="uren2019">(<a href="#ref-uren2019" role="doc-biblioref">U’Ren et al. 2019</a>)</span>.</p>
+<p>His PhD dissertation at Stanford (as part of <a href="https://www.stanford.edu/group/Vitousek">the Vitousek Lab</a>) focused primarily on the biogeography of communities of foliar fungal endophytes that inhabit the asymptomatic leaves of ʻōhiʻa (<em>Metrosideros polymorpha</em>), an endemic Hawaiian tree <span class="citation" data-cites="zimmerman2012a">(<a href="#ref-zimmerman2012a" role="doc-biblioref">Zimmerman and Vitousek 2012</a>)</span>. He also worked on a number of collaborative projects examining the functional consequences of pathogen-endophyte-genotype interactions <span class="citation" data-cites="busby2013a">(<a href="#ref-busby2013a" role="doc-biblioref">Busby et al. 2013</a>)</span> in narrowleaf cottonwood (<em>Populus angustifolia</em>).</p>
+<p>After graduating from college, he spent a year in the <a href="https://scholar.harvard.edu/dschrag/home">Schrag geochemical oceanography lab</a> as a technician reconstructing past climatic trends from oxygen isotope records in marine sulfate <span class="citation" data-cites="turchyn2009">(e.g. <a href="#ref-turchyn2009" role="doc-biblioref">Turchyn et al. 2009</a>)</span> and in cores from long-lived tropical tree species <span class="citation" data-cites="anchukaitis2008">(e.g. <a href="#ref-anchukaitis2008" role="doc-biblioref">Anchukaitis et al. 2008</a>)</span>. He also spent a year teaching in Seoul, South Korea before starting grad school.</p>
+<p>His undergrad degree was in <a href="https://espp.fas.harvard.edu">Environmental Science and Public Policy</a> and <a href="https://anthropology.fas.harvard.edu/undergraduate">Social Anthropology</a> at Harvard University. His interdisciplinary honors thesis focused on understanding how differing environmental conceptions (scientific, indigenous, economic, etc) play out in the construction of public narrative and policy. His ecological research during that time was focused on lowland wet forest communities along a substrate age (successional) gradient in Hawaiʻi, with particular focus on how invasive species alter the successional trajectories of these forests <span class="citation" data-cites="zimmerman2008a">(<a href="#ref-zimmerman2008a" role="doc-biblioref">Zimmerman et al. 2008</a>)</span>.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-anchukaitis2008" class="csl-entry" role="doc-biblioentry">
+Anchukaitis, K. J., M. N. Evans, N. T. Wheelwright, and D. P. Schrag. 2008. <span>“Stable Isotope Chronology and Climate Signal Calibration in Neotropical Montane Cloud Forest Trees.”</span> <em>Journal of Geophysical Research</em> 113 (G3). <a href="https://doi.org/10.1029/2007jg000613">https://doi.org/10.1029/2007jg000613</a>.
+</div>
+<div id="ref-busby2013a" class="csl-entry" role="doc-biblioentry">
+Busby, Posy E, Naupaka B. Zimmerman, David J Weston, Sara S Jawdy, Jos Houbraken, and George Newcombe. 2013. <span>“Leaf Endophytes and Populus Genotype Affect Severity of Damage from the Necrotrophic Leaf Pathogen, Drepanopeziza Populi.”</span> <em>Ecosphere</em> 4 (10): art125. <a href="https://doi.org/10.1890/ES13-00127.1">https://doi.org/10.1890/ES13-00127.1</a>.
+</div>
+<div id="ref-huang2018" class="csl-entry" role="doc-biblioentry">
+Huang, YL, NB Zimmerman, and AE Arnold. 2018. <span>“Observations on the Early Establishment of Foliar Endophytic Fungi in Leaf Discs and Living Leaves of a Model Woody Angiosperm, Populus Trichocarpa (Salicaceae).”</span> <em>J Fungi (Basel)</em> 4 (2). <a href="https://doi.org/10.3390/jof4020058">https://doi.org/10.3390/jof4020058</a>.
+</div>
+<div id="ref-turchyn2009" class="csl-entry" role="doc-biblioentry">
+Turchyn, Alexandra V., Daniel P. Schrag, Rodolfo Coccioni, and Alessandro Montanari. 2009. <span>“Stable Isotope Analysis of the Cretaceous Sulfur Cycle.”</span> <em>Earth and Planetary Science Letters</em> 285 (1-2): 115–23. <a href="https://doi.org/10.1016/j.epsl.2009.06.002">https://doi.org/10.1016/j.epsl.2009.06.002</a>.
+</div>
+<div id="ref-uren2019" class="csl-entry" role="doc-biblioentry">
+U’Ren, JM, F Lutzoni, J Miadlikowska, NB Zimmerman, I Carbone, G May, and AE Arnold. 2019. <span>“Host Availability Drives Distributions of Fungal Endophytes in the Imperilled Boreal Realm.”</span> <em>Nat Ecol Evol</em> 3 (10): 1430–37. <a href="https://doi.org/10.1038/s41559-019-0975-2">https://doi.org/10.1038/s41559-019-0975-2</a>.
+</div>
+<div id="ref-zimmerman2008a" class="csl-entry" role="doc-biblioentry">
+Zimmerman, Naupaka B., R Flint Hughes, Susan Cordell, Patrick J Hart, Heather Kalei Chang, David Perez, Ryan Kaipoalohaakala Like, and Rebecca Ostertag. 2008. <span>“Patterns of Primary Succession of Native and Introduced Plants in Lowland Wet Forests in Eastern Hawai’i.”</span> <em>Biotropica</em> 40 (3): 277–84. <a href="https://doi.org/10.1111/j.1744-7429.2007.00371.x">https://doi.org/10.1111/j.1744-7429.2007.00371.x</a>.
+</div>
+<div id="ref-zimmerman2012a" class="csl-entry" role="doc-biblioentry">
+Zimmerman, Naupaka B., and Peter M Vitousek. 2012. <span>“Fungal Endophyte Communities Reflect Environmental Structuring Across a Hawaiian Landscape.”</span> <em>Proceedings of the National Academy of Sciences</em> 109 (32): 13022–27. <a href="https://doi.org/10.1073/pnas.1209872109">https://doi.org/10.1073/pnas.1209872109</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -300,8 +332,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">CC-BY 4.0, Naupaka Zimmerman</div>   
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left"><i class="fa-regular fa-copyright" aria-label="copyright"></i> 2023 Naupaka Zimmerman, <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> CC-BY 4.0</a></div>   
+    <div class="nav-footer-right">This page is built with ️🌱🍄📊 and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

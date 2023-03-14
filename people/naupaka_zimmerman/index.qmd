@@ -1,9 +1,20 @@
 ---
 title: "Naupaka Zimmerman"
-categories: [news, code, analysis]
+categories: [people]
 image: "naupaka.jpg"
+bibliography: ../../references.bib
 ---
 
-In this project I work on Machine Learning methods to predict in-hospital mortality. 
+Biogeography, ecological function, and evolution of plant microbiomes.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< fa file-pdf >}} [Complete CV (updated March 2023)](../../files/Zimmerman_CV.pdf)
+
+<img src="laptop_nz.jpg" align = "left" width = 40% style="margin:15px"> Naupaka Zimmerman is currently an Associate Professor in the [Biology Department](https://www.usfca.edu/arts-sciences/programs/undergraduate/biology/faculty) at the [University of San Francisco](https://usfca.edu), where he [teaches](../../teaching/index.qmd) courses in Microbiology, Ecology, Urban Ecology, California Ecology, and Bioinformatics (among others). He is broadly interested in the intersection between microbial community and ecosystem ecology, and is currently examining it in the context of endophytic fungal communities via next-gen molecular methods. While these communities are incredibly diverse, particularly in the tropics, we know very little about their functions in ecosystems. Using a combination of field surveys and greenhouse manipulations, he is currently engaged in [a number of different projects](../../projects/index.qmd) trying to understand what these enigmatic organisms are up to.
+
+Prior to USF, he was a postdoc at the University of Arizona as a [Gordon and Betty Moore Fellow](http://www.moore.org) of the [Life Sciences Research Foundation](https://www.lsrf.org), working in [the Arnold Lab](http://www.arnoldlab.net). His work there focused on understanding the mechanisms of interaction between foliar endophytes and host [@huang2018] in black cottonwood (*Populus trichocarpa*), and on the circumglobal biogeography of boreal endophytes [@uren2019].
+
+His PhD dissertation at Stanford (as part of [the Vitousek Lab](https://www.stanford.edu/group/Vitousek)) focused primarily on the biogeography of communities of foliar fungal endophytes that inhabit the asymptomatic leaves of ʻōhiʻa (*Metrosideros polymorpha*), an endemic Hawaiian tree [@zimmerman2012a]. He also worked on a number of collaborative projects examining the functional consequences of pathogen-endophyte-genotype interactions [@busby2013a] in narrowleaf cottonwood (*Populus angustifolia*). 
+
+After graduating from college, he spent a year in the [Schrag geochemical oceanography lab](https://scholar.harvard.edu/dschrag/home) as a technician reconstructing past climatic trends from oxygen isotope records in marine sulfate [e.g. @turchyn2009] and in cores from long-lived tropical tree species [e.g. @anchukaitis2008]. He also spent a year teaching in Seoul, South Korea before starting grad school.
+
+His undergrad degree was in [Environmental Science and Public Policy](https://espp.fas.harvard.edu) and [Social Anthropology](https://anthropology.fas.harvard.edu/undergraduate) at Harvard University. His interdisciplinary honors thesis focused on understanding how differing environmental conceptions (scientific, indigenous, economic, etc) play out in the construction of public narrative and policy. His ecological research during that time was focused on lowland wet forest communities along a substrate age (successional) gradient in Hawaiʻi, with particular focus on how invasive species alter the successional trajectories of these forests [@zimmerman2008a]. 

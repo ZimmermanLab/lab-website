@@ -1,7 +1,7 @@
 ---
 title: "Ava Albert"
-categories: [news, code, analysis]
+categories: [people]
 image: "ava.jpg"
 ---
 
-In this project I use EHR to explore the hospital transfers. 
+Bioinformatic analyses of plant metagenomes to extract symbiont reads. 

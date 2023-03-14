@@ -1,0 +1,7 @@
+---
+title: "Plant and soil microbes in organic agriculture"
+categories: [projects, function]
+image: "srf.jpg"
+---
+
+Looking at the effects of plant-associated microbes in an organic cropping system.

@@ -1,0 +1,7 @@
+---
+title: "Endophyte effects on host physiology in *Populus*"
+categories: [news, code, analysis]
+image: "populus_transpiration_natalie.jpg"
+---
+
+Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance. 

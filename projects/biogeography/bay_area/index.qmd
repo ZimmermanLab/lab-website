@@ -1,0 +1,7 @@
+---
+title: "Bay Area sampling of *Populus* endophytes"
+categories: [projects, biogeography]
+image: "josh_field_sampling.jpg"
+---
+
+Quantifying the effects of host genetics on foliar fungal communities in a *Populus* hybrid zone. 

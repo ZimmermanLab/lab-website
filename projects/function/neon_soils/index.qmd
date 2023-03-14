@@ -1,0 +1,7 @@
+---
+title: "NEON Soil CO<sub>2</sub> Efflux"
+categories: [projects, function]
+image: "neon_licor.jpg"
+---
+
+Modeling and measuring soil CO<sub>2</sub> efflux across National Ecological Observatory Network (NEON) sites. 

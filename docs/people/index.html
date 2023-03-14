@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This page provides a mix of two types of listing, grouped by id.">
+<meta name="description" content="Current and past members of the Zimmerman Lab at USF.">
 
 <title>Zimmerman Lab - People</title>
 <style>
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current_grad_students .list');
+    const listingTargetEl = window.document.querySelector('#listing-current_ug_students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current_grad_students'] = new List('listing-current_grad_students', options);
+    window['quarto-listings']['listing-current_ug_students'] = new List('listing-current_ug_students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -135,34 +135,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-alum_grad_students'] = new List('listing-alum_grad_students', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current_ug_students .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current_ug_students'] = new List('listing-current_ug_students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -219,34 +191,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-alum_hs_students'] = new List('listing-alum_hs_students', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-packages .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-packages'] = new List('listing-packages', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -339,17 +283,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#pi" id="toc-pi" class="nav-link active" data-scroll-target="#pi">PI</a></li>
-  <li><a href="#current-graduate-students" id="toc-current-graduate-students" class="nav-link" data-scroll-target="#current-graduate-students">Current Graduate Students</a></li>
   <li><a href="#current-undergraduate-students" id="toc-current-undergraduate-students" class="nav-link" data-scroll-target="#current-undergraduate-students">Current Undergraduate Students</a></li>
   <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a>
   <ul class="collapse">
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
   <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
   <li><a href="#high-school-students" id="toc-high-school-students" class="nav-link" data-scroll-target="#high-school-students">High School Students</a></li>
-  </ul></li>
-  <li><a href="#table-listing" id="toc-table-listing" class="nav-link" data-scroll-target="#table-listing">Table listing</a>
-  <ul class="collapse">
-  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -364,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>This page provides a mix of two types of listing, grouped by <code>id</code>.</p>
+    <p>Current and past members of the Zimmerman Lab at USF.</p>
   </div>
 </div>
 
@@ -379,53 +318,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="lab.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Pre-COVID Lab Group Meeting</figcaption><p></p>
+</figure>
+</div>
 <section id="pi" class="level2">
 <h2 class="anchored" data-anchor-id="pi">PI</h2>
 <p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
 <p>It is convenient to use <code>id</code> to link to multiple folders.</p>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_10/index.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678751377048" data-listing-reading-time-sort="0.41">
+<a href="../people/naupaka_zimmerman/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_10/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/naupaka_zimmerman/naupaka.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Naupaka Zimmerman
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="current-graduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="current-graduate-students">Current Graduate Students</h2>
-<p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
-<p>It is convenient to use <code>id</code> to link to multiple folders.</p>
-<div id="listing-current_grad_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.06">
-<a href="../people/project_1/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../people/project_1/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-project_1
-</h5>
-<div class="card-text listing-description">
-In this project I use EHR to explore the hospital transfers.
 </div>
 </div>
 </div>
@@ -442,19 +358,19 @@ No matching items
 <p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
 <p>It is convenient to use <code>id</code> to link to multiple folders.</p>
 <div id="listing-current_ug_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_6/index.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678750584569" data-listing-reading-time-sort="0.06">
+<a href="../people/ug/ava_albert/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_6/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/ug/ava_albert/ava.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Ava Albert
 </h5>
 <div class="card-text listing-description">
-In this project I work on Machine Learning methods to predict in-hospital mortality.
+In this project I use EHR to explore the hospital transfers.
 </div>
 </div>
 </div>
@@ -473,16 +389,16 @@ No matching items
 <p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
 <p>It is convenient to use <code>id</code> to link to multiple folders.</p>
 <div id="listing-alum_grad_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_2/index.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678752450444" data-listing-reading-time-sort="0.07">
+<a href="../people/grad/derek_newberger/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_2/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/grad/derek_newberger/derek.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Derek Newberger
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -491,15 +407,15 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_3/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678752357943" data-listing-reading-time-sort="0.07">
+<a href="../people/grad/joshua_copeland/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_3/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/grad/joshua_copeland/josh.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Joshua Copeland
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -508,15 +424,15 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_4/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678751109077" data-listing-reading-time-sort="0.07">
+<a href="../people/grad/sarah_gao/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_4/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/grad/sarah_gao/sarah.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Sarah Gao
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -526,10 +442,27 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </a>
 </div>
 <div class="g-col-1" data-index="3" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_5/index.html" class="quarto-grid-link">
+<a href="../people/grad/ashley_sango/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_5/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/grad/ashley_sango/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+project_2
+</h5>
+<div class="card-text listing-description">
+In this project I work on Machine Learning methods to predict in-hospital mortality.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
+<a href="../people/grad/jason_krastins/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../people/grad/jason_krastins/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -553,16 +486,16 @@ No matching items
 <p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
 <p>It is convenient to use <code>id</code> to link to multiple folders.</p>
 <div id="listing-alum_ug_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_7/index.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678750822396" data-listing-reading-time-sort="0.07">
+<a href="../people/ug/christina_tran/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_7/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/ug/christina_tran/christina.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Christina Tran
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -571,15 +504,15 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_8/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-file-modified-sort="1678752756641" data-listing-reading-time-sort="0.07">
+<a href="../people/ug/emma_gibson/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_8/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/ug/emma_gibson/emma.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Emma Gibson
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -588,15 +521,15 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_9/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-file-modified-sort="1678750352566" data-listing-reading-time-sort="0.07">
+<a href="../people/ug/natalie_ashburner_wright/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_9/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/ug/natalie_ashburner_wright/natalie.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Natalie Ashburner-Wright
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -616,16 +549,16 @@ No matching items
 <p>This is an example of <strong>grid</strong> listing. You can specify the content in the <code>yaml</code> header in the <code>.qmd</code> file.</p>
 <p>It is convenient to use <code>id</code> to link to multiple folders.</p>
 <div id="listing-alum_hs_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678239884613" data-listing-reading-time-sort="0.07">
-<a href="../people/project_9/index.html" class="quarto-grid-link">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-file-modified-sort="1678753109198" data-listing-reading-time-sort="0.07">
+<a href="../people/hs/amirtha_maria/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
-<img src="../people/project_9/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../people/hs/amirtha_maria/amirtha.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-project_2
+Amirtha Maria
 </h5>
 <div class="card-text listing-description">
 In this project I work on Machine Learning methods to predict in-hospital mortality.
@@ -635,50 +568,6 @@ In this project I work on Machine Learning methods to predict in-hospital mortal
 </a>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-</section>
-<section id="table-listing" class="level2">
-<h2 class="anchored" data-anchor-id="table-listing">Table listing</h2>
-<p>This is an example of <strong>table</strong> listing.</p>
-<section id="packages" class="level3">
-<h3 class="anchored" data-anchor-id="packages">Packages</h3>
-<div id="listing-packages" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1666681200000" data-listing-file-modified-sort="1678239884612" data-listing-reading-time-sort="0.025" data-listing-title-sort="pkg_1" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../people/pkg_1/index.html" class="title">pkg_1</a>
-</td>
-<td class="listing-description">
-This package does this.
-</td>
-</tr>
-<tr data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1666681200000" data-listing-file-modified-sort="1678239884612" data-listing-reading-time-sort="0.02" data-listing-title-sort="pkg_2" data-listing-filename-sort="index.qmd">
-<td class="listing-title">
-<a href="../people/pkg_2/index.html" class="title">pkg_2</a>
-</td>
-<td class="listing-description">
-This package does this.
-</td>
-</tr>
-</tbody>
-
-</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

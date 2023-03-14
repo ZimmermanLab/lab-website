@@ -1,0 +1,7 @@
+---
+title: "Derek Newberger"
+categories: [news, code, analysis]
+image: "derek.jpg"
+---
+
+In this project I work on Machine Learning methods to predict in-hospital mortality. 

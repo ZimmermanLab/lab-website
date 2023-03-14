@@ -168,23 +168,65 @@
     "text": "Mastodon\n  \n  \n    \n     Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a researcher at University of Oslo.\nMy work is about Electronic Health Records.\n\n\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\n\n\n\nI have developed X R packages, published Y papers."
   },
   {
-    "objectID": "people/project_10/index.html",
-    "href": "people/project_10/index.html",
+    "objectID": "people/ug/ava_albert/index.html",
+    "href": "people/ug/ava_albert/index.html",
+    "title": "Ava Albert",
+    "section": "",
+    "text": "In this project I use EHR to explore the hospital transfers."
+  },
+  {
+    "objectID": "people/ug/christina_tran/index.html",
+    "href": "people/ug/christina_tran/index.html",
+    "title": "Christina Tran",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "people/ug/natalie_ashburner_wright/index.html",
+    "href": "people/ug/natalie_ashburner_wright/index.html",
+    "title": "Natalie Ashburner-Wright",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "people/ug/project_9/index.html",
+    "href": "people/ug/project_9/index.html",
     "title": "project_2",
     "section": "",
     "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
   },
   {
-    "objectID": "people/project_2/index.html",
-    "href": "people/project_2/index.html",
+    "objectID": "people/grad/derek_newberger/index.html",
+    "href": "people/grad/derek_newberger/index.html",
+    "title": "Derek Newberger",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "people/grad/ashley_sango/index.html",
+    "href": "people/grad/ashley_sango/index.html",
     "title": "project_2",
     "section": "",
     "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
   },
   {
-    "objectID": "people/project_5/index.html",
-    "href": "people/project_5/index.html",
+    "objectID": "people/grad/jason_krastins/index.html",
+    "href": "people/grad/jason_krastins/index.html",
     "title": "project_2",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "people/grad/joshua_copeland/index.html",
+    "href": "people/grad/joshua_copeland/index.html",
+    "title": "Joshua Copeland",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "people/grad/sarah_gao/index.html",
+    "href": "people/grad/sarah_gao/index.html",
+    "title": "Sarah Gao",
     "section": "",
     "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
   },
@@ -193,98 +235,35 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/index.html#current-graduate-students",
-    "href": "people/index.html#current-graduate-students",
-    "title": "People",
-    "section": "Current Graduate Students",
-    "text": "Current Graduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nproject_1\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Pre-COVID Lab Group Meeting"
   },
   {
     "objectID": "people/index.html#current-undergraduate-students",
     "href": "people/index.html#current-undergraduate-students",
     "title": "People",
     "section": "Current Undergraduate Students",
-    "text": "Current Undergraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Current Undergraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nAva Albert\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html#alumni",
     "href": "people/index.html#alumni",
     "title": "People",
     "section": "Alumni",
-    "text": "Alumni\n\nGraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nHigh School Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Alumni\n\nGraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nDerek Newberger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Copeland\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Gao\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject_2\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nChristina Tran\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmma Gibson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatalie Ashburner-Wright\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nHigh School Students\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nAmirtha Maria\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/index.html#table-listing",
-    "href": "people/index.html#table-listing",
-    "title": "People",
-    "section": "Table listing",
-    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/pkg_1/index.html",
-    "href": "people/pkg_1/index.html",
-    "title": "pkg_1",
+    "objectID": "people/naupaka_zimmerman/index.html",
+    "href": "people/naupaka_zimmerman/index.html",
+    "title": "Naupaka Zimmerman",
     "section": "",
-    "text": "This package does this."
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "objectID": "people/project_4/index.html",
-    "href": "people/project_4/index.html",
-    "title": "project_2",
+    "objectID": "people/hs/amirtha_maria/index.html",
+    "href": "people/hs/amirtha_maria/index.html",
+    "title": "Amirtha Maria",
     "section": "",
     "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/project_3/index.html",
-    "href": "people/project_3/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/project_6/index.html",
-    "href": "people/project_6/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/project_1/index.html",
-    "href": "people/project_1/index.html",
-    "title": "project_1",
-    "section": "",
-    "text": "In this project I use EHR to explore the hospital transfers."
-  },
-  {
-    "objectID": "people/project_8/index.html",
-    "href": "people/project_8/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/project_9/index.html",
-    "href": "people/project_9/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/project_7/index.html",
-    "href": "people/project_7/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "people/pkg_2/index.html",
-    "href": "people/pkg_2/index.html",
-    "title": "pkg_2",
-    "section": "",
-    "text": "This package does this."
   },
   {
     "objectID": "blog.html",
@@ -292,5 +271,19 @@
     "title": "Blog",
     "section": "",
     "text": "Read more about Quarto blogs here.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/index.html#pi",
+    "href": "people/index.html#pi",
+    "title": "People",
+    "section": "PI",
+    "text": "PI\nThis is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\nNaupaka Zimmerman\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/ug/emma_gibson/index.html",
+    "href": "people/ug/emma_gibson/index.html",
+    "title": "Natalie Ashburner-Wright",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
   }
 ]

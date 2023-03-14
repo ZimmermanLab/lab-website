@@ -1,0 +1,7 @@
+---
+title: "Ava Albert"
+categories: [news, code, analysis]
+image: "ava.jpg"
+---
+
+In this project I use EHR to explore the hospital transfers. 

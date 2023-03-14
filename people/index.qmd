@@ -1,79 +1,65 @@
 ---
 title: "People"
 description: |
-  This page provides a mix of two types of listing, grouped by `id`.
+  Current and past members of the Zimmerman Lab at USF.
 listing:
   - id: pi
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_10
+      - naupaka_zimmerman
     type: grid
     grid-item-border: false
-  
-  - id: current_grad_students
+    grid-columns: 2
+
+  - id: current_ug_students
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_1
+      - ug/ava_albert
     type: grid
     grid-item-border: false
+    grid-columns: 2
 
   - id: alum_grad_students
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_2
-      - project_3
-      - project_4
-      - project_5
-    type: grid
-    grid-item-border: false    
-    
-  - id: current_ug_students
-    max-description-length: 500
-    image-height: 150px
-    fields: [image, title, description]
-    contents: 
-      - project_6
+      - grad/sarah_gao
+      - grad/ashley_sango
+      - grad/jason_krastins
+      - grad/derek_newberger
+      - grad/joshua_copeland
     type: grid
     grid-item-border: false
+    grid-columns: 2 
 
   - id: alum_ug_students
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_7
-      - project_8
-      - project_9
+      - ug/natalie_ashburner_wright
+      - ug/christina_tran
+      - ug/emma_gibson
     type: grid
     grid-item-border: false
+    grid-columns: 2
 
   - id: alum_hs_students
     max-description-length: 500
     image-height: 150px
     fields: [image, title, description]
     contents: 
-      - project_9
+      - hs/amirtha_maria
     type: grid
     grid-item-border: false
-  
-  - id: packages
-    max-description-length: 80
-    image-height: 250px
-    fields: [title, description]
-    contents: 
-      - pkg_1
-      - pkg_2
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
+    grid-columns: 2
 ---
+![Pre-COVID Lab Group Meeting](lab.jpg)
 
 ## PI
 
@@ -82,15 +68,6 @@ This is an example of **grid** listing. You can specify the content in the `yaml
 It is convenient to use `id` to link to multiple folders. 
 
 ::: {#pi}
-:::
-
-## Current Graduate Students
-
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
-
-It is convenient to use `id` to link to multiple folders. 
-
-::: {#current_grad_students}
 :::
 
 ## Current Undergraduate Students
@@ -130,17 +107,3 @@ It is convenient to use `id` to link to multiple folders.
 
 ::: {#alum_hs_students}
 :::
-
-## Table listing
-
-This is an example of **table** listing. 
-
-### Packages 
-
-::: {#packages}
-:::
-
-
-
-
-

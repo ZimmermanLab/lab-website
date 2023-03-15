@@ -29,5 +29,5 @@ Being expected to perform as a practicing scientist inside of a classroom contex
 
 ## Creating Belonging
 
-<img src="california_ecology.jpg" align = "left" width = 40% style="margin:15px">Engaging diverse trainees --- at the undergraduate, graduate, and postgraduate levels --- in a course of education that is structured around building in each of them the skills and habits of mind necessary to enable self-directed learning enables them to go on to apply those in all areas of their own lives, and in turn to impact others. The benefit is not just to the student, but to those the student interacts with now and into the future.
+<img src="california_ecology.jpg" align = "left" width = 30% style="margin:15px">Engaging diverse trainees --- at the undergraduate, graduate, and postgraduate levels --- in a course of education that is structured around building in each of them the skills and habits of mind necessary to enable self-directed learning enables them to go on to apply those in all areas of their own lives, and in turn to impact others. The benefit is not just to the student, but to those the student interacts with now and into the future.
 

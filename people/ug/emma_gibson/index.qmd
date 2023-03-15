@@ -6,4 +6,4 @@ image: "emma.jpg"
 
 Biogeography of fungal endophytes in *Metrosideros excelsa* across San Francisco.
 
-Emma was an undergraduate honorʻs student in the lab. Her thesis is currently being reviewed for publication, and is available as [a fully-reproducible manuscript on GitHub](https://github.com/ZimmermanLab/SF-metrosideros-endophytes).  
+Emma was an undergraduate honors student in the lab. Her thesis is currently being reviewed for publication, and is available as [a fully-reproducible manuscript on GitHub](https://github.com/ZimmermanLab/SF-metrosideros-endophytes).  

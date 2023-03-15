@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # remove old stuff
-rm -rf /var/www/html/*
+rm -rfv /var/www/html/*
 
 # add the new
-cp docs/* /var/www/html/
+cp -v docs/* /var/www/html/

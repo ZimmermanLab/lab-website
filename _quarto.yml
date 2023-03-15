@@ -28,7 +28,7 @@ website:
         href: teaching/index.qmd
 
       - text: "Open Science"
-        hrf: open_science/index.qmd
+        href: open_science/index.qmd
 
       - text: "Join the Lab"
         href: join.qmd

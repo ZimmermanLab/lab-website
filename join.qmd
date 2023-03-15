@@ -1,16 +1,32 @@
 ---
-title: "About this template"
+title: "Join the Lab"
 format: 
   html:
     code-fold: false
     code-tools: false
-editor: visual
 ---
 
-::: callout-tip
-## About this template
+## USF Undergraduates
 
-This page contains some elaborated background information about your workshop, or the instructors.
-:::
+If you are a USF undergraduate interested in joining the lab, [send me an email](mailto:nzimmerman@usfca.edu) and we can set up a time to talk about your experience, interests, and long-term goals. Not all research experiences are the same, so it's important to think about what you would like to get out of the time you invest in the lab. Generally I expect students to be able to commit to around 10 hours a week during the semester. This is a big committment, but moving projects forward takes time, especially if you are learning new techniques for the first time. Depending on the number of students in the lab at the time you join, there may be funding available to pay you for the hours you work in the lab. If you have a work-study allocation as part of your financial aid package, please do mention that as well.
 
-This is to demonstrate how to make a drop-down page from the navigation bar.
+To get a sense for what previous undergraduates in the lab have worked on, you can check out their USF [Creative Activity and Research Day](https://myusf.usfca.edu/arts-sciences/card) posters:
+
+* [2018 --- Urban Biogeography of Fungal Endophytes in *Metrosideros excelsa* Across San Francisco --- Emma Gibson](https://repository.usfca.edu/artsci_stu/2018/posters/26/)
+* [2020 --- Symbiosis Between *Arabidopsis thaliana* and *Colletotrichum tofieldiae* for Enhanced Phytoremediation of Indoor Volatile Organic Compounds --- Emre Ovet](https://repository.usfca.edu/artsci_stu/2020/posters/14/)
+* [2020 --- Phylogenetic Relationships of Foliar Bacteria Within Cover Crops in an Organic Cropping System --- Marcello Kuan, Derek Newberger, Christina Tran](https://repository.usfca.edu/artsci_stu/2020/posters/30/)
+* [2021 --- Hidden Consequences: The Effects of Daikon Radish on the Microbial Communities of Purple Vetch in Cover Crop Mixtures --- Marcello Kuan](https://repository.usfca.edu/artsci_stu/2021/posters/22/)
+
+## Prospective MS Biology Students
+
+USF's Biology Department has a small [MS in Biology](https://www.usfca.edu/arts-sciences/programs/graduate/biology) program. We accept between 2-5 students per cohort to work directly with a faculty mentor on a thesis project that is of mutual interest. All admitted students receive a full-tuition scholarship and have the ability to apply to be a Teaching Assistant to earn a stipend.
+
+The most important thing to consider when joining a lab as part of a research-based Master's degree is fit with the other members of the lab and alignment of research interests with the group. For serious potential applicants, we can set up meetings with other folks in the group and have a discussion about potential research projects. These discussions should happen *before you apply*.
+
+The requirements for the MS degree in Biology include some coursework, but the primary task is to develop (in consultation with your mentor) a research project proposal, defend the proposal before a committee of faculty, complete the proposed research and write it up as a thesis, and then present and defend that thesis in a public defense and meeting with your thesis committee.
+
+To get a sense of the scope of MS theses written by students in the program, you can browse recent theses in the [USF Scholarship Repository](https://repository.usfca.edu/biol_stu/).
+
+## Prospective Postdoctoral Fellows
+
+While USF doesn't have a large number of postdoctoral fellows, I am always willing to talk to interested folks who want to put together a proposal for fellowship funding. USF would be a great place to do a postdoc if you are interested in seeking an academic position in a teaching-focused institution for your career.

@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Open Science"
 format: 
   html:
     code-fold: false
@@ -7,19 +7,39 @@ format:
 bibliography: ../references.bib
 ---
 
-## Teaching Philosophy
+## What Do We Mean By Open Science?
 
-Modern pedagogical research suggests that the primary role of teachers is not to teach, which implies the conveyance of a polished set of knowledge, but rather to facilitate learning. Deep learning and true understanding of concepts come from individuals confronting inconsistencies in the way they currently think a set of ideas fit together. Thus, the role of a teacher is to help students identify these areas where understanding is incomplete and then help them develop the skills of critical thinking and a facility with the tools that will allow the students to create new mental structures for themselves. Ultimately, the best teachers can instill in students the cognitive and technical skills, and more importantly the motivation and self-confidence, to enable them to become life-long, self-directed learners. 
+While there are [numerous](https://www.cos.io/about/mission) [definitions](https://www.unesco.org/en/open-science) of [Open Science](https://en.wikipedia.org/wiki/Open_science), many folks tend to emphasize the importance of open computational research practices and open access publishing. I like to remind myself that open science is and should be broader than that. Open science at its best is science that is not only transparent, reproducible, and freely available, but it is also science that is inclusive and open to other views. Below I've given some description of these various aspects of Open Science and places in my career where I've intersected with them.
 
-## Project and Inquiry Based Learning
+**In this lab, we aim to practice open science in its broadest sense to the best of our ability.**
 
-## Computational Training
+### Data and Code Availability
 
-I use a practice-based integration of experiential, quantitative, and computational literacy as a core tenet of my own approach to teaching. This is not only because such an approach was recommended in these two reports; I also co-authored a study that found that many students in Ecology felt that their exposure to quantitative (mathematical, statistical, computational) approaches to scientific practice was inadequate [@barraquand2014] and wished they had taken more such courses as undergraduates. Quantitative and computational literacy is particularly useful because it is a tool that makes it easier to figure out what it is that we don't yet understand or know. 
+For most research in the STEM disciplines, there has been a big push to train scientists to use reproducible approaches to managing their data [@hart2016a] and analyses [@hampton2015]. Part of this is ensuring, as many journals now require, that the data and code used to generate the analyses in a published article are made available freely with the manuscript or in a public archival repository.  
 
-My conviction that computational skills are empowering for students and scientists at all levels have also grown out of numerous extramural teaching and training experiences over the past 10 years. The most formative of these for me have been my experiences with Software and Data Carpentry. These organizations (collectively, the Carpentries) are global, non-profit, volunteer organizations whose mission it is to help teach scientists best practices for research computing. The practical applications of the skills we teach (scripting in python or R, scripting and navigating the shell, version control using git and GitHub, and structured data and databases) are immediately recognized, and many researchers have said they wished they had learned these skills much sooner in their studies or careers [@jordan2017]. Beyond the Carpentries, I have also taught these computational skills in numerous workshops at national (Ecological Society of America) meetings, and as an invited instructor at several week-long Data Institutes at the National Ecological Observatory Network in Boulder, CO, where I helped teach ecologists at all career stages how to work with the large-scale remote sensing datasets produced by NEON. I have contributed to reproducible research curricula through in-person participation in workshops and hackathons at UC Berkeley's BIDS (Berkeley Institute for Data Science), and online through peer code review through the ROpenSci initiative.
+### Computational Reproducibility
 
-## Creating Belonging
+Even if all code and data are freely available, being able to take the publicly available code and data and use them to re-run the analyses the authors conducted is often quite challenging. This is because the computational environment required to run the code may be quite specific to the individual scientist's machine and not fully documented. To help mitigate this, analysis code can be made reusable and publicly available as a software package [e.g. an R package I helped write for analysis of terrestrial LiDAR data, @atkins2018].
 
-Engaging diverse trainees---at the undergraduate, graduate, and postgraduate levels---in a course of education that is structured around building in each of them the skills and habits of mind necessary to enable self-directed learning enables them to go on to apply those in all areas of their own lives, and in turn to impact others. The benefit is not just to the student, but to those the student interacts with now and into the future.
+Another important approach is having the pipeline or order of code execution well-documented or even better, automated. In all of my undergraduate courses at USF, I [introduce students](../teaching/index.qmd#computational-training) to the use of [R](https://www.r-project.org/) and [Rmarkdown](https://rmarkdown.rstudio.com/) to generate reproducible reports for their projects in class. For my graduate and undergraduate Bioinformatics courses, we go a step futher and learn the use of the program `make` for automating complex computational workflows in an efficient manner. 
 
+Here's an example of these approaches in practice. [Emma Gibson](../people/ug/emma_gibson) was an honors undergraduate student in my lab at USF. She completed an honors thesis looking at communities of foliar endophytes in leaves of one of the most common street trees in San Francisco, *Metrosideros excelsa*. She conducted her analyses and wrote her thesis using R and Rmarkdown, and when we were ready to submit it for publication, we added the required computational environments to reproduce all analyses using [Docker](https://www.docker.com/) and [renv](https://rstudio.github.io/renv/articles/renv.html). This project is [available as a public repository](https://github.com/ZimmermanLab/SF-metrosideros-endophytes) on the Lab GitHub organization. 
+
+### Preprints
+
+Preprints are completed scientific manuscripts that are publicly posted and assigned a permanent Digital Object Identifier (DOI) through preprint archive servers like [bioRxiv](https://www.biorxiv.org) or [EcoEvoRxiv](https://ecoevorxiv.org). These have become much more popular in recent years, because they enable formal scientific exchanges and communication to happen much more rapidly than the months to years that it takes for a manuscript to work its way through peer review. Generally scientists will submit their complete manuscript both to a preprint server and to a journal for formal peer review at the same time, and then once the peer-reviewed article is accepted, the preprint is updated to reflect this fact. As preprints are freely available, posting them also helps advance the next goal, which is free and open access to research articles.
+
+### Open Access Publishing
+
+Open access publishing (at its core) is the idea that journal articles should not be locked behind paywalls. As much of the research in the United States (and elsewhere) is publicly funded, it doesn't seem right to have the results of this work locked up and unavailable to most of the public (and even to many scientists who don't have the means to afford access). This has become a key issue in the European Union [and the US](https://www.science.org/content/article/white-house-requires-immediate-public-access-all-u-s--funded-research-papers-2025) in the last several years, and soon I imagine this will become the status quo.
+
+Open access publishing discussions also often involve a discussion of more open peer review. While it varies between disciplines, peer review in many journals is what is called 'single blind', which means that the reviewers know the identity of the author(s), but the author(s) doesn't know the identities of the reviewers. This opacity can be both good and bad --- it could protect more junior scientists from retaliation if they submit a negative review, but it also clearly results in a number of power imbalances that may not lead to optimal outcomes (such as reviewers writing overly critical reviews instead of offering constructive evaluation and feedback). When I was a graduate student, we worked with the editors of many of the journals published by the Ecological Society of America to think about ways that graduate students could become more involved in the review process and to build training programs that would help inculcate best practices at an early stage [@zimmerman2011a].
+
+### International Connections
+
+During the time when I was a graduate student and postdoc, I became quite involved with the Ecological Society of America [Student Section](https://www.esa.org/students/), eventually becoming chair of the section. One of the topics that repeatedly came up in discussions at that time was the lack of professional networks for students outside of countries with large professional societies in Ecology (e.g. the US and UK). With a team of other students and collaboration with the [International Association for Ecology (INTECOL)](https://intecolonline.wordpress.com) we authored a number of articles articulating this problem and proposing some steps forward 
+[@jorgensen2011; @white2015a; @jorgensen2015].
+
+### Social Equity and Inclusion
+
+In the last several years, I have become involved with a collection of folks called the [Microbes and Social Equity Working Group](https://sueishaqlab.org/microbes-and-social-equity-working-group/) [@ishaq2021]. Through this highly interdisciplinary group, I have helped to organize [several](https://www.eventscribe.net/2021/ESA/fsPopup.asp?Mode=sessionInfo&PresentationID=923573) [sessions](https://www.eventscribe.net/2022/ESA/fsPopup.asp?PresentationID=1072285&query=mallory+choudoi&Mode=presInfo) at ESA meetings over the years; these sessions were focused on widening the focus of microbial research to include the broader social context of the research as well as its implications for human communities.

@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/naupaka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://naupaka.net
+  * I am naupaka (https://keybase.io/naupaka) on keybase.
+  * I have a public key with fingerprint FB64 41AA F17C C1D3 CD47  753E BCD0 D06B 26C3 E659
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b79e53d3ffc3c015c8a2d18ffba880c86ea49e533810a727e52d07a0225b42720a",
+      "fingerprint": "fb6441aaf17cc1d3cd47753ebcd0d06b26c3e659",
+      "host": "keybase.io",
+      "key_id": "bcd0d06b26c3e659",
+      "kid": "0101f8917253dbae66f46294e29a1f04c0ff35a4acc021cf2693be4e38be9e3fb6a20a",
+      "uid": "b76e00a8026cea0a7e654493a4c46700",
+      "username": "naupaka"
+    },
+    "merkle_root": {
+      "ctime": 1678899977,
+      "hash_meta": "65c4fdbba5280089d7dc7b6f49e0751358b5f30ab2871e572aacb8621746c02b",
+      "seqno": 24199436
+    },
+    "revoke": {
+      "sig_ids": [
+        "d404075a00cab8f4fdf27dd5e642d2f12a550264da676f65fe2fa8e30e1f87590f"
+      ]
+    },
+    "service": {
+      "hostname": "naupaka.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1678900003,
+  "expire_in": 157680000,
+  "prev": "1b484ef67c1966b9293c03fd4eff76bc6e692cf1c00317a39663f078911d1d7e",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtU3lsFUUcfgVKsUmhpQEt+lTWwh/2UWavmd0ncpSrNkjxKGmpL8/Z3ZnyePTt
+Y9/2AdLKGS5L2kg4SisYLFYwBTkErYA0aDlLG0qVQy5juZJWoDaRkkZnQYImzj+b
++e33+77v981MeUJvV7+Yg83NweFHb+TFnLqtuYykh+MWcJppzOe8C7ggefQhsw0S
+sf3BgMF5OcADXkMqkUVDpFQXdcDLuoIFg1co1bCiAF2BBEsOQlR4gJGAiCwYAGEg
+CLImCUgAmPNwNBAqIFbYCoRsRks1KEk8xpRHus4bom5ICMki0XQDGABqAtRFAmWV
+Nc40I04HM6fhCEkPmKzGNv5H9v4H/9Q3VVQeCcy5hgmEVIKCKhFBxTwFkg4oFWUs
+YV0HAq9TAaqiRiQiKhpRicj84ce+ix7rIEgAwApgQgSzKZmYJKkilnQJIgAcYIRY
+IVxIGDqEi8I4iLkSD1dIrOBs4rdM03ay1e2Ag+AhUhRVVRFi8+HITH8hsTFrhLIu
+UUPTsCwoACiqgQwdacy6SgCSeVFWNJmKAGuCgngiIwFjXVOgwCMJsjk0ZiNC5oRM
+zitIvKpKImQWLBI1g8RRjwQKWGwRzpvPGRKQjhQxUgyAjjWFMl0qIMOQCZQEQ6C8
+gGWZjSsZGCJIoUyJQLFCREBYsEhWAeV8JY6eFQ3oj+idk/pvAukhYjNPYcu0Td2c
+zX7MtO2w1wnGnh92gHOJ5v+Hwq8FQga7JawhSqxIwAyxoBjyX5mpgC3Rw5F54YBF
+/AEHISOoOGVHhkQZJa9JikQoRDqvQqipgspurUgNVqMIajokUBV0yuuMikdYZCCR
+AkbO8wZvIPI0RMiOx8YFjJMlF8J2kUW4kvhVvcQ+rph+LvfgoX0eGuN23Cuub2mc
+XDT6ycuK7eU8K1f8M4lPKrKS6KqaR81xbVcOhsuGF7gv3V2fUD1sWn1WZ6cVueFd
+V5rCxW441v7+G9XRlNUVjVkf1DzXP25N9+bw1v0Dj9fmVeTKnmkHsne9/pIvoTW9
+s3hkWktq7PWuuFk5G8YPK/6CH3r14M0JY3FHc0JpXlPTp/EtZu2ehyvfXnXFPqN2
+Vl44MnrsZ1UvThp0dNGxjedP90QyrwxuLHtQl3E621fE1ZT2HN40KT5l4LnkP8pD
+Y7JOcX/il7u2z2rorp64uOnim1/lVv4Yu/b51Gf1j1JP3erMvn7nxuR133maXtu7
+7L2mudfcyZ1D8vqePbz75t0tmT/VpKxZu+9+3qidt1sv7H5QlnDicmnd3mvGK4OG
+nO0zYmLfpVvq0zzdzeeXdFcsf2fq8dUD3LmFqMwqnPNh0vQVmb79C5d6r74q/bYt
+p6YjqSQZfvuC4J9TWb3wl4bQmDNTtKsVdRd9h8a0fdk/rapjWs++/K53l2yq/WRk
+Ze8LPRXbB+rBLdvy+5bXjO93vQqlThkWswgs/7z8coBPbPNPLXV3NdL0O9HKuAkr
+S3YcyG7YuCQ6oDBzQ05Oe8b6H5K57JO++YvduQ1u8d5fb52+ljT9+/rfK5tmxEzM
+zq9rP7mnevcAc8aujrYVizISrCTPiV+/GZ8xIujLbE8c27h1dOvm7T/XFpyzd7be
+iltW7hJAS/z9tNrWPZdGHcL8kf7xX39srl/zNw==
+=YO1a
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/naupaka
+
+==================================================================
+

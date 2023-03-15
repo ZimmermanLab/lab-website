@@ -2,6 +2,11 @@
 title: "Biogeography of *Metrosideros* endophytes in Hawaiʻi"
 categories: [projects, biogeography]
 image: "lehua.jpg"
+bibliography: ../../../references.bib
 ---
 
 Biogeography of tropical fungal endophytes at the landscape scale. 
+
+What are the factors that structure host-associated microbial communities? Are they primarily based on abiotic factors like elevation, rainfall, and host nutrient status, or are they more influenced by biotic factors? This thread of work sought to pull those different factors apart by using an environmental matrix on Mauna Loa volcano in Hawaiʻi, where elevation and rainfall could be compared independently.  
+
+The results of this research (which was supported in part by a [NSF DDIG](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1010504&HistoricalAwards=false)) represents the core of my PhD conducted at Stanford University with Peter Vitousek. Using high-throughput amplicon sequencing of foliar samples of leaves of the Hawaiian endemic ʻōhiʻa tree (*Metrosideros polymorpha*, Myrtaceae), we found that endophyte communities were strongly structured at the landscape scale by environmental factors such as elevation and rainfall [@zimmerman2012a]. This was one of the first studies to use high-throughput amplicon sequencing to study endophyte communities.

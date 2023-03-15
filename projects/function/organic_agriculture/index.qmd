@@ -5,3 +5,11 @@ image: "srf.jpg"
 ---
 
 Looking at the effects of plant-associated microbes in an organic cropping system.
+
+In 2017, the University of San Francisco bought [Star Route Farms](https://www.starroutefarms.org/), the oldest continuously certified organic farm in the state of California. The farm has continued to operate as a working farm, but it is now also being used as a site for [research and teaching](https://www.usfca.edu/faculty-research/star-route-farms).
+
+A number of students in the lab over the years have worked on projects related to organic agriculture and have greatly benefitted from this relationship between the farm and university.
+
+A series of projects led by former MS student [Derek Newberger](../../../people/grad/derek_newberger); but also including undergraduates [Marcello Kuan](../../../people/ug/marcello_kuan) and [Christina Tran](../../../people/ug/christina_tran); and high school student [Amirtha Maria](../../../people/hs/amirtha_maria) looked at the microbial communities (both fungi and bacteria) of different species of cover crops and assessed their contribution to soil microbial communities.
+
+More recently, MS student [Sarah Gao](../../../people/grad/sarah_gao), along with undergraduate [Nivedita Ghosh](../../../people/ug/nivedita_ghosh), worked to conduct a factorial drought and cover-cropping soil microcosm experiment. Sarah's interest was on the impact of different periods of drought on the cycling of nutrients from cover crop incorporation and how this was mediated by microbial community shifts.

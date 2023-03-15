@@ -1,7 +1,18 @@
 ---
 title: "Endophyte effects on host physiology in *Populus*"
-categories: [news, code, analysis]
+categories: [project, function]
 image: "populus_transpiration_natalie.jpg"
+bibliography: ../../../references.bib
 ---
 
 Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance. 
+
+Foliar endophytes live inside of all species of plant surveyed to date, generally without causing any visible symptoms. However, we still know little about the mechanism of these biotic interactions and their consequences. 
+
+Through a series of projects over the past decade, we have been working to develop a better understanding of the consequences of endophyte infection. We've primarily been using *Populus* species as a model host for these experiments. *Populus trichocarpa* was the first tree to have its genome fully sequenced, and the (comparatively) fast growth and easy propagation of this genus from clonal cutting makes it useful to experiments.
+
+Some of the earliest studies we conducted were on *Populus angustifolia* (narrowleaf cottonwood), where we were looking at the effect of endophyte inoculation on pathogen damage [@busby2013a].
+
+Through a series of *in vitro* and *in vivo* inoculation experiments coupled with bright field and electron microscopy, we captured evidence that endophytes often enter the leaves through open stomatal pores [@huang2018].
+
+Here at USF, we have been working on a series of projects looking at foliar colonization of inoculated endophytes through staining and light microscopy (primarily led by undergraduate [Natalie Ashburner-Wright](../../../people/ug/natalie_ashbuner_wright)) as well as a series of inoculation experiments in the greenhouse and in growth chambers to assess the functional consequences of these infections on host physiological performance. These experiments have been carried out both by Natalie and by MS student [Jason Krastins](../../../people/grad/jason_krastins) alongside undergraduate [Sayeh Jafari](../../../people/ug/sayeh_jafari). Unfortunately a whole set of ongoing experiments in this focal area had to be shut down due to Spring 2020 COVID restrictions. 

@@ -5,3 +5,7 @@ image: "git_pres.jpg"
 ---
 
 Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods. 
+
+[The Carpentries](https://carpentries.org) has been an influential organization in the computational training arena for more than a decade. It is a global volunteer-driven nonprofit that aims to increase the computational skills of scientists (and now librarians). 
+
+Lessons developed and maintained include [R for Reproducible Scientific Analysis](https://github.com/swcarpentry/r-novice-gapminder) and [Genomic Data Analysis and Visualization in R](https://datacarpentry.org/R-genomics/).

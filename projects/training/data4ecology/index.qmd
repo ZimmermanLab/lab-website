@@ -5,3 +5,9 @@ image: "student_presentation.jpg"
 ---
 
 Building a web-based platform for introducing computational training in undergraduate ecology courses. 
+
+While the amount and diversity of data that is available to ecologists continues to grow rapidly, the skills and training required to fully make use of these burgeoning resources is lagging behind. One area where this could be ameliorated is in the facilitation of more data analysis and computational skills in undergraduate ecology curricula. This would set students up with the background they need to hit the ground running in a career or in graduate school, where they can build on a solid foundation to develop more specialized expertise.
+
+This particular project is an [ongoing NSF-funded](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118305&HistoricalAwards=false) collaboration that aims to build a computational platform for teaching data-centric ecology courses at the undergraduate level. It is being built on top of the [STATS4STEM](https://www.stats4stem.org/) platform, with specific content being developed for an ecology-focused curriculum.
+
+We are building R-based modules around the material in the open textbook [Ecology for All!](https://bio.libretexts.org/Courses/Gettysburg_College/01%3A_Ecology_for_All) and incorporating data sources such as [NEON](https://www.neonscience.org/) and the [LTER](https://lternet.edu) network.

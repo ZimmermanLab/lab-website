@@ -5,3 +5,11 @@ image: "downtown_sampling.jpg"
 ---
 
 Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.
+
+The proportion of people living in cities continues to increase, and many research studies have suggested that the ecology of the urban environment can have important effects on the health of city residents. One component of this environment is the microbial communities that people are exposed to. How are endophytic communities associated with street trees and other plants growing throughout cities contributing to its microbial mileau? 
+
+This work was initially led by honors undergraduate [Emma Gibson](../../../people/ug/emma_gibson) and culminated in her honors thesis, which is currently in review for publication and available as a fully producible [manuscript on GitHub](https://github.com/ZimmermanLab/SF-metrosideros-endophytes).
+
+In brief, she collected samples from 30 trees across the city, and then did high-throughput culturing and sequencing of isolated fungal endophytes to identify the taxa. Her community ecology analyses showed that the communities are structured by site and likely influenced by the string climatic gradient across the city caused by onshore winds from the cold Pacific.
+
+Years after Emma graduated, MS graduate student [Ashley Sango](../../../people/grad/ashley_sango) and undergraduate student [Victoria Lamar](../../../people/ug/victoria_lamar) teamed up to look at the distribution of airborne microbes and spores across the city and how this distribution intersected with air quality.

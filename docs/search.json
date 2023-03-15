@@ -25,56 +25,56 @@
     "href": "projects/biogeography/bay_area/index.html",
     "title": "Bay Area sampling of Populus endophytes",
     "section": "",
-    "text": "Quantifying the effects of host genetics on foliar fungal communities in a Populus hybrid zone."
+    "text": "Quantifying the effects of host genetics on foliar fungal communities in a Populus hybrid zone.\nThis work was led by former MS student Josh Copeland and resulted in the first chapter of this MS thesis. He collected Populus spp. samples from Niles Canyon, located east of Fremont, CA. This location is interesting because it is a hybrid zone between black cottonwood (Populus trichocarpa) and Fremont’s cottonwood (Populus fremontii), leading to the establishment of a stable population of the hybrid Populus x parryi. We were able to sample from herbarium archival specimens at the California Academy of Sciences herbarium to verify the identity of the different individual trees.\nFrom the field samples, he did a high-throughput culture- and Sanger- based sequencing analysis to quantify community makeup across different host types and over time. These samples were then also used as focal fungal taxa for quantifying Volatile Organic Compound analysis using Gas Chromatography/Mass Spectrometry (GC/MS)."
   },
   {
     "objectID": "projects/biogeography/sf/index.html",
     "href": "projects/biogeography/sf/index.html",
     "title": "Urban Biogeography of fungal endophytes in San Francisco",
     "section": "",
-    "text": "Biogeography of foliar fungi in leaves and in the air across the City of San Francisco."
+    "text": "Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.\nThe proportion of people living in cities continues to increase, and many research studies have suggested that the ecology of the urban environment can have important effects on the health of city residents. One component of this environment is the microbial communities that people are exposed to. How are endophytic communities associated with street trees and other plants growing throughout cities contributing to its microbial mileau?\nThis work was initially led by honors undergraduate Emma Gibson and culminated in her honors thesis, which is currently in review for publication and available as a fully producible manuscript on GitHub.\nIn brief, she collected samples from 30 trees across the city, and then did high-throughput culturing and sequencing of isolated fungal endophytes to identify the taxa. Her community ecology analyses showed that the communities are structured by site and likely influenced by the string climatic gradient across the city caused by onshore winds from the cold Pacific.\nYears after Emma graduated, MS graduate student Ashley Sango and undergraduate student Victoria Lamar teamed up to look at the distribution of airborne microbes and spores across the city and how this distribution intersected with air quality."
   },
   {
     "objectID": "projects/biogeography/hawaii/index.html",
     "href": "projects/biogeography/hawaii/index.html",
     "title": "Biogeography of Metrosideros endophytes in Hawaiʻi",
     "section": "",
-    "text": "Biogeography of tropical fungal endophytes at the landscape scale."
+    "text": "Biogeography of tropical fungal endophytes at the landscape scale.\nWhat are the factors that structure host-associated microbial communities? Are they primarily based on abiotic factors like elevation, rainfall, and host nutrient status, or are they more influenced by biotic factors? This thread of work sought to pull those different factors apart by using an environmental matrix on Mauna Loa volcano in Hawaiʻi, where elevation and rainfall could be compared independently.\nThe results of this research (which was supported in part by a NSF DDIG) represents the core of my PhD conducted at Stanford University with Peter Vitousek. Using high-throughput amplicon sequencing of foliar samples of leaves of the Hawaiian endemic ʻōhiʻa tree (Metrosideros polymorpha, Myrtaceae), we found that endophyte communities were strongly structured at the landscape scale by environmental factors such as elevation and rainfall (Zimmerman and Vitousek 2012). This was one of the first studies to use high-throughput amplicon sequencing to study endophyte communities.\n\n\n\n\nReferences\n\nZimmerman, Naupaka B., and Peter M Vitousek. 2012. “Fungal Endophyte Communities Reflect Environmental Structuring Across a Hawaiian Landscape.” Proceedings of the National Academy of Sciences 109 (32): 13022–27. https://doi.org/10.1073/pnas.1209872109."
   },
   {
     "objectID": "projects/training/data4ecology/index.html",
     "href": "projects/training/data4ecology/index.html",
     "title": "Data4Ecology",
     "section": "",
-    "text": "Building a web-based platform for introducing computational training in undergraduate ecology courses."
+    "text": "Building a web-based platform for introducing computational training in undergraduate ecology courses.\nWhile the amount and diversity of data that is available to ecologists continues to grow rapidly, the skills and training required to fully make use of these burgeoning resources is lagging behind. One area where this could be ameliorated is in the facilitation of more data analysis and computational skills in undergraduate ecology curricula. This would set students up with the background they need to hit the ground running in a career or in graduate school, where they can build on a solid foundation to develop more specialized expertise.\nThis particular project is an ongoing NSF-funded collaboration that aims to build a computational platform for teaching data-centric ecology courses at the undergraduate level. It is being built on top of the STATS4STEM platform, with specific content being developed for an ecology-focused curriculum.\nWe are building R-based modules around the material in the open textbook Ecology for All! and incorporating data sources such as NEON and the LTER network."
   },
   {
     "objectID": "projects/training/carpentries/index.html",
     "href": "projects/training/carpentries/index.html",
     "title": "The Carpentries",
     "section": "",
-    "text": "Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods."
+    "text": "Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods.\nThe Carpentries has been an influential organization in the computational training arena for more than a decade. It is a global volunteer-driven nonprofit that aims to increase the computational skills of scientists (and now librarians).\nLessons developed and maintained include R for Reproducible Scientific Analysis and Genomic Data Analysis and Visualization in R."
   },
   {
     "objectID": "projects/function/organic_agriculture/index.html",
     "href": "projects/function/organic_agriculture/index.html",
     "title": "Plant and soil microbes in organic agriculture",
     "section": "",
-    "text": "Looking at the effects of plant-associated microbes in an organic cropping system."
+    "text": "Looking at the effects of plant-associated microbes in an organic cropping system.\nIn 2017, the University of San Francisco bought Star Route Farms, the oldest continuously certified organic farm in the state of California. The farm has continued to operate as a working farm, but it is now also being used as a site for research and teaching.\nA number of students in the lab over the years have worked on projects related to organic agriculture and have greatly benefitted from this relationship between the farm and university.\nA series of projects led by former MS student Derek Newberger; but also including undergraduates Marcello Kuan and Christina Tran; and high school student Amirtha Maria looked at the microbial communities (both fungi and bacteria) of different species of cover crops and assessed their contribution to soil microbial communities.\nMore recently, MS student Sarah Gao, along with undergraduate Nivedita Ghosh, worked to conduct a factorial drought and cover-cropping soil microcosm experiment. Sarah’s interest was on the impact of different periods of drought on the cycling of nutrients from cover crop incorporation and how this was mediated by microbial community shifts."
   },
   {
     "objectID": "projects/function/neon_soils/index.html",
     "href": "projects/function/neon_soils/index.html",
     "title": "NEON Soil CO2 Efflux",
     "section": "",
-    "text": "Modeling and measuring soil CO2 efflux across National Ecological Observatory Network (NEON) sites."
+    "text": "Modeling and measuring soil CO2 efflux across National Ecological Observatory Network (NEON) sites.\nThis is an ongoing project collaborative project funded by the National Science Foundation through the Macrosystems program. We are working with John Zobitz at Augsburg University in Minneapolis, MN, to develop a soil CO2 efflux data product for all core terrestrial National Ecological Observatory Network (NEON) sites. The core challenge is that NEON collects continuous data from soil sensors across all of its sites, but these data need to be combined into a diffusion model to estimate efflux and developing this model was descoped when NEON ran into budget constraints during the build-out phase.\nWe are combining model building (available as an in-development R package) with several years of field campaigns to NEON sites to collect on-site actual flux measurements to ground truth our model.\nWe are also running as part of this project a Faculty Mentoring Network through QUBES during the 2023 Spring semester."
   },
   {
     "objectID": "projects/function/populus_physiology/index.html",
     "href": "projects/function/populus_physiology/index.html",
     "title": "Endophyte effects on host physiology in Populus",
     "section": "",
-    "text": "Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance."
+    "text": "Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance.\nFoliar endophytes live inside of all species of plant surveyed to date, generally without causing any visible symptoms. However, we still know little about the mechanism of these biotic interactions and their consequences.\nThrough a series of projects over the past decade, we have been working to develop a better understanding of the consequences of endophyte infection. We’ve primarily been using Populus species as a model host for these experiments. Populus trichocarpa was the first tree to have its genome fully sequenced, and the (comparatively) fast growth and easy propagation of this genus from clonal cutting makes it useful to experiments.\nSome of the earliest studies we conducted were on Populus angustifolia (narrowleaf cottonwood), where we were looking at the effect of endophyte inoculation on pathogen damage (Busby et al. 2013).\nThrough a series of in vitro and in vivo inoculation experiments coupled with bright field and electron microscopy, we captured evidence that endophytes often enter the leaves through open stomatal pores (Huang, Zimmerman, and Arnold 2018).\nHere at USF, we have been working on a series of projects looking at foliar colonization of inoculated endophytes through staining and light microscopy (primarily led by undergraduate Natalie Ashburner-Wright) as well as a series of inoculation experiments in the greenhouse and in growth chambers to assess the functional consequences of these infections on host physiological performance. These experiments have been carried out both by Natalie and by MS student Jason Krastins alongside undergraduate Sayeh Jafari. Unfortunately a whole set of ongoing experiments in this focal area had to be shut down due to Spring 2020 COVID restrictions.\n\n\n\n\nReferences\n\nBusby, Posy E, Naupaka B. Zimmerman, David J Weston, Sara S Jawdy, Jos Houbraken, and George Newcombe. 2013. “Leaf Endophytes and Populus Genotype Affect Severity of Damage from the Necrotrophic Leaf Pathogen, Drepanopeziza Populi.” Ecosphere 4 (10): art125. https://doi.org/10.1890/ES13-00127.1.\n\n\nHuang, YL, NB Zimmerman, and AE Arnold. 2018. “Observations on the Early Establishment of Foliar Endophytic Fungi in Leaf Discs and Living Leaves of a Model Woody Angiosperm, Populus Trichocarpa (Salicaceae).” J Fungi (Basel) 4 (2). https://doi.org/10.3390/jof4020058."
   },
   {
     "objectID": "projects/index.html",
@@ -259,8 +259,8 @@
     "text": "Endophyte modulation of drought stress in Populus; Primer bias in high-throughput sequencing in an experimental rainforest (Biosphere2)."
   },
   {
-    "objectID": "people/grad/joshua_copeland/Pop.html",
-    "href": "people/grad/joshua_copeland/Pop.html",
+    "objectID": "people/grad/joshua_copeland/index.html",
+    "href": "people/grad/joshua_copeland/index.html",
     "title": "Joshua Copeland",
     "section": "",
     "text": "Community ecology and VOC production by endophytes of Populus spp."

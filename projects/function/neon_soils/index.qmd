@@ -5,3 +5,9 @@ image: "neon_licor.jpg"
 ---
 
 Modeling and measuring soil CO<sub>2</sub> efflux across National Ecological Observatory Network (NEON) sites. 
+
+This is an [ongoing project collaborative project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2017860&HistoricalAwards=false) funded by the National Science Foundation through the Macrosystems program. We are working with [John Zobitz](https://www.augsburg.edu/faculty/zobitz/) at Augsburg University in Minneapolis, MN, to develop a soil CO<sub>2</sub> efflux data product for all core terrestrial National Ecological Observatory Network (NEON) sites. The core challenge is that NEON collects continuous data from soil sensors across all of its sites, but these data need to be combined into a diffusion model to estimate efflux and developing this model was descoped when NEON ran into budget constraints during the build-out phase.
+
+We are combining model building (available as an [in-development R package](https://github.com/jmzobitz/NEONSoils)) with several years of field campaigns to NEON sites to collect on-site actual flux measurements to ground truth our model.
+
+We are also running as part of this project a [Faculty Mentoring Network](https://qubeshub.org/community/groups/neon_soils_fmn) through [QUBES](https://qubeshub.org) during the 2023 Spring semester.

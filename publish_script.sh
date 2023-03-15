@@ -4,4 +4,4 @@
 rm -rfv /var/www/html/*
 
 # add the new
-cp -v docs/* /var/www/html/
+cp -rv docs/* /var/www/html/

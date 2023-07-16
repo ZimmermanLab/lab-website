@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/biogeography/bay_area/index.html",
-      "/projects/biogeography/hawaii/index.html",
-      "/projects/biogeography/sf/index.html",
-      "/projects/function/populus_physiology/index.html",
-      "/projects/function/neon_soils/index.html",
-      "/projects/function/organic_agriculture/index.html",
-      "/projects/training/data4ecology/index.html",
-      "/projects/training/carpentries/index.html"
-    ]
-  },
-  {
     "listing": "/people/index.html",
     "items": [
       "/people/naupaka_zimmerman/index.html",
@@ -33,6 +20,19 @@
       "/people/ug/sayeh_jafari/index.html",
       "/people/ug/victoria_lamar/index.html",
       "/people/hs/amirtha_maria/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/biogeography/bay_area/index.html",
+      "/projects/biogeography/hawaii/index.html",
+      "/projects/biogeography/sf/index.html",
+      "/projects/function/populus_physiology/index.html",
+      "/projects/function/neon_soils/index.html",
+      "/projects/function/organic_agriculture/index.html",
+      "/projects/training/data4ecology/index.html",
+      "/projects/training/carpentries/index.html"
     ]
   }
 ]

@@ -1,84 +1,126 @@
 [
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join the Lab",
+    "objectID": "people/hs/amirtha_maria/index.html",
+    "href": "people/hs/amirtha_maria/index.html",
+    "title": "Amirtha Maria",
     "section": "",
-    "text": "If you are a USF undergraduate interested in joining the lab, send me an email and we can set up a time to talk about your experience, interests, and long-term goals. Not all research experiences are the same, so it’s important to think about what you would like to get out of the time you invest in the lab. Generally I expect students to be able to commit to around 10 hours a week during the semester. This is a big committment, but moving projects forward takes time, especially if you are learning new techniques for the first time. Depending on the number of students in the lab at the time you join, there may be funding available to pay you for the hours you work in the lab. If you have a work-study allocation as part of your financial aid package, please do mention that as well.\nTo get a sense for what previous undergraduates in the lab have worked on, you can check out their USF Creative Activity and Research Day posters:\n\n2018 — Urban Biogeography of Fungal Endophytes in Metrosideros excelsa Across San Francisco — Emma Gibson\n2020 — Symbiosis Between Arabidopsis thaliana and Colletotrichum tofieldiae for Enhanced Phytoremediation of Indoor Volatile Organic Compounds — Emre Ovet\n2020 — Phylogenetic Relationships of Foliar Bacteria Within Cover Crops in an Organic Cropping System — Marcello Kuan, Derek Newberger, Christina Tran\n2021 — Hidden Consequences: The Effects of Daikon Radish on the Microbial Communities of Purple Vetch in Cover Crop Mixtures — Marcello Kuan"
+    "text": "Phyllosphere bacteria of cover crops in an organic system; effects of aquatic nutrient levels on chlorophyll concentration across NEON sites."
   },
   {
-    "objectID": "join.html#prospective-ms-biology-students",
-    "href": "join.html#prospective-ms-biology-students",
-    "title": "Join the Lab",
-    "section": "Prospective MS Biology Students",
-    "text": "Prospective MS Biology Students\nUSF’s Biology Department has a small MS in Biology program. We accept between 2-5 students per cohort to work directly with a faculty mentor on a thesis project that is of mutual interest. All admitted students receive a full-tuition scholarship and have the ability to apply to be a Teaching Assistant to earn a stipend.\nThe most important thing to consider when joining a lab as part of a research-based Master’s degree is fit with the other members of the lab and alignment of research interests with the group. For serious potential applicants, we can set up meetings with other folks in the group and have a discussion about potential research projects. These discussions should happen before you apply.\nThe requirements for the MS degree in Biology include some coursework, but the primary task is to develop (in consultation with your mentor) a research project proposal, defend the proposal before a committee of faculty, complete the proposed research and write it up as a thesis, and then present and defend that thesis in a public defense and meeting with your thesis committee.\nTo get a sense of the scope of MS theses written by students in the program, you can browse recent theses in the USF Scholarship Repository."
-  },
-  {
-    "objectID": "join.html#prospective-postdoctoral-fellows",
-    "href": "join.html#prospective-postdoctoral-fellows",
-    "title": "Join the Lab",
-    "section": "Prospective Postdoctoral Fellows",
-    "text": "Prospective Postdoctoral Fellows\nWhile USF doesn’t have a large number of postdoctoral fellows, I am always willing to talk to interested folks who want to put together a proposal for fellowship funding. USF would be a great place to do a postdoc if you are interested in seeking an academic position in a teaching-focused institution for your career."
-  },
-  {
-    "objectID": "projects/biogeography/bay_area/index.html",
-    "href": "projects/biogeography/bay_area/index.html",
-    "title": "Bay Area sampling of Populus endophytes",
+    "objectID": "people/index.html",
+    "href": "people/index.html",
+    "title": "People",
     "section": "",
-    "text": "Quantifying the effects of host genetics on foliar fungal communities in a Populus hybrid zone.\nThis work was led by former MS student Josh Copeland and resulted in the first chapter of this MS thesis. He collected Populus spp. samples from Niles Canyon, located east of Fremont, CA. This location is interesting because it is a hybrid zone between black cottonwood (Populus trichocarpa) and Fremont’s cottonwood (Populus fremontii), leading to the establishment of a stable population of the hybrid Populus x parryi. We were able to sample from herbarium archival specimens at the California Academy of Sciences herbarium to verify the identity of the different individual trees.\nFrom the field samples, he did a high-throughput culture- and Sanger- based sequencing analysis to quantify community makeup across different host types and over time. These samples were then also used as focal fungal taxa for quantifying Volatile Organic Compound analysis using Gas Chromatography/Mass Spectrometry (GC/MS)."
+    "text": "Pre-COVID Lab Group Meeting"
   },
   {
-    "objectID": "projects/biogeography/sf/index.html",
-    "href": "projects/biogeography/sf/index.html",
-    "title": "Urban Biogeography of fungal endophytes in San Francisco",
-    "section": "",
-    "text": "Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.\nThe proportion of people living in cities continues to increase, and many research studies have suggested that the ecology of the urban environment can have important effects on the health of city residents. One component of this environment is the microbial communities that people are exposed to. How are endophytic communities associated with street trees and other plants growing throughout cities contributing to its microbial mileau?\nThis work was initially led by honors undergraduate Emma Gibson and culminated in her honors thesis, which is currently in review for publication and available as a fully producible manuscript on GitHub.\nIn brief, she collected samples from 30 trees across the city, and then did high-throughput culturing and sequencing of isolated fungal endophytes to identify the taxa. Her community ecology analyses showed that the communities are structured by site and likely influenced by the string climatic gradient across the city caused by onshore winds from the cold Pacific.\nYears after Emma graduated, MS graduate student Ashley Sango and undergraduate student Victoria Lamar teamed up to look at the distribution of airborne microbes and spores across the city and how this distribution intersected with air quality."
+    "objectID": "people/index.html#principal-investigator",
+    "href": "people/index.html#principal-investigator",
+    "title": "People",
+    "section": "Principal Investigator",
+    "text": "Principal Investigator\n\n\n\n\n\n\n\n\n\n\nNaupaka Zimmerman\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/biogeography/hawaii/index.html",
-    "href": "projects/biogeography/hawaii/index.html",
-    "title": "Biogeography of Metrosideros endophytes in Hawaiʻi",
-    "section": "",
-    "text": "Biogeography of tropical fungal endophytes at the landscape scale.\nWhat are the factors that structure host-associated microbial communities? Are they primarily based on abiotic factors like elevation, rainfall, and host nutrient status, or are they more influenced by biotic factors? This thread of work sought to pull those different factors apart by using an environmental matrix on Mauna Loa volcano in Hawaiʻi, where elevation and rainfall could be compared independently.\nThe results of this research (which was supported in part by a NSF DDIG) represents the core of my PhD conducted at Stanford University with Peter Vitousek. Using high-throughput amplicon sequencing of foliar samples of leaves of the Hawaiian endemic ʻōhiʻa tree (Metrosideros polymorpha, Myrtaceae), we found that endophyte communities were strongly structured at the landscape scale by environmental factors such as elevation and rainfall (Zimmerman and Vitousek 2012). This was one of the first studies to use high-throughput amplicon sequencing to study endophyte communities.\n\n\n\n\nReferences\n\nZimmerman, Naupaka B., and Peter M Vitousek. 2012. “Fungal Endophyte Communities Reflect Environmental Structuring Across a Hawaiian Landscape.” Proceedings of the National Academy of Sciences 109 (32): 13022–27. https://doi.org/10.1073/pnas.1209872109."
+    "objectID": "people/index.html#current-undergraduate-students",
+    "href": "people/index.html#current-undergraduate-students",
+    "title": "People",
+    "section": "Current Undergraduate Students",
+    "text": "Current Undergraduate Students\n\n\n\n\n\n\n\n\n\n\nAva Albert\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/training/data4ecology/index.html",
-    "href": "projects/training/data4ecology/index.html",
-    "title": "Data4Ecology",
-    "section": "",
-    "text": "Building a web-based platform for introducing computational training in undergraduate ecology courses.\nWhile the amount and diversity of data that is available to ecologists continues to grow rapidly, the skills and training required to fully make use of these burgeoning resources is lagging behind. One area where this could be ameliorated is in the facilitation of more data analysis and computational skills in undergraduate ecology curricula. This would set students up with the background they need to hit the ground running in a career or in graduate school, where they can build on a solid foundation to develop more specialized expertise.\nThis particular project is an ongoing NSF-funded collaboration that aims to build a computational platform for teaching data-centric ecology courses at the undergraduate level. It is being built on top of the STATS4STEM platform, with specific content being developed for an ecology-focused curriculum.\nWe are building R-based modules around the material in the open textbook Ecology for All! and incorporating data sources such as NEON and the LTER network."
+    "objectID": "people/index.html#alumni",
+    "href": "people/index.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\nGraduate Students\n\n\n\n\n\n\n\n\n\n\nAshley Sango\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Newberger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJason Krastins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Copeland\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Gao\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate Students\n\n\n\n\n\n\n\n\n\n\nChristina Tran\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmma Gibson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmre Ovet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulian Murdzek\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarcello Kuan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatalie Ashburner-Wright\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNivedita Ghosh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReina Rios\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSayeh Jafari\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVictoria Lamar\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nHigh School Students\n\n\n\n\n\n\n\n\n\n\nAmirtha Maria\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/training/carpentries/index.html",
-    "href": "projects/training/carpentries/index.html",
-    "title": "The Carpentries",
+    "objectID": "people/grad/joshua_copeland/index.html",
+    "href": "people/grad/joshua_copeland/index.html",
+    "title": "Joshua Copeland",
     "section": "",
-    "text": "Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods.\nThe Carpentries has been an influential organization in the computational training arena for more than a decade. It is a global volunteer-driven nonprofit that aims to increase the computational skills of scientists (and now librarians).\nLessons developed and maintained include R for Reproducible Scientific Analysis and Genomic Data Analysis and Visualization in R."
+    "text": "Community ecology and VOC production by endophytes of Populus spp."
   },
   {
-    "objectID": "projects/function/organic_agriculture/index.html",
-    "href": "projects/function/organic_agriculture/index.html",
-    "title": "Plant and soil microbes in organic agriculture",
+    "objectID": "people/grad/ashley_sango/index.html",
+    "href": "people/grad/ashley_sango/index.html",
+    "title": "Ashley Sango",
     "section": "",
-    "text": "Looking at the effects of plant-associated microbes in an organic cropping system.\nIn 2017, the University of San Francisco bought Star Route Farms, the oldest continuously certified organic farm in the state of California. The farm has continued to operate as a working farm, but it is now also being used as a site for research and teaching.\nA number of students in the lab over the years have worked on projects related to organic agriculture and have greatly benefitted from this relationship between the farm and university.\nA series of projects led by former MS student Derek Newberger; but also including undergraduates Marcello Kuan and Christina Tran; and high school student Amirtha Maria looked at the microbial communities (both fungi and bacteria) of different species of cover crops and assessed their contribution to soil microbial communities.\nMore recently, MS student Sarah Gao, along with undergraduate Nivedita Ghosh, worked to conduct a factorial drought and cover-cropping soil microcosm experiment. Sarah’s interest was on the impact of different periods of drought on the cycling of nutrients from cover crop incorporation and how this was mediated by microbial community shifts."
+    "text": "Public health and urban aerial microbiomes across the City of San Francisco."
   },
   {
-    "objectID": "projects/function/neon_soils/index.html",
-    "href": "projects/function/neon_soils/index.html",
-    "title": "NEON Soil CO2 Efflux",
+    "objectID": "people/ug/marcello_kuan/index.html",
+    "href": "people/ug/marcello_kuan/index.html",
+    "title": "Marcello Kuan",
     "section": "",
-    "text": "Modeling and measuring soil CO2 efflux across National Ecological Observatory Network (NEON) sites.\nThis is an ongoing project collaborative project funded by the National Science Foundation through the Macrosystems program. We are working with John Zobitz at Augsburg University in Minneapolis, MN, to develop a soil CO2 efflux data product for all core terrestrial National Ecological Observatory Network (NEON) sites. The core challenge is that NEON collects continuous data from soil sensors across all of its sites, but these data need to be combined into a diffusion model to estimate efflux and developing this model was descoped when NEON ran into budget constraints during the build-out phase.\nWe are combining model building (available as an in-development R package) with several years of field campaigns to NEON sites to collect on-site actual flux measurements to ground truth our model.\nWe are also running as part of this project a Faculty Mentoring Network through QUBES during the 2023 Spring semester."
+    "text": "Phyllosphere bacterial communities from cover crops at Star Route Farms."
   },
   {
-    "objectID": "projects/function/populus_physiology/index.html",
-    "href": "projects/function/populus_physiology/index.html",
-    "title": "Endophyte effects on host physiology in Populus",
+    "objectID": "people/ug/christina_tran/index.html",
+    "href": "people/ug/christina_tran/index.html",
+    "title": "Christina Tran",
     "section": "",
-    "text": "Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance.\nFoliar endophytes live inside of all species of plant surveyed to date, generally without causing any visible symptoms. However, we still know little about the mechanism of these biotic interactions and their consequences.\nThrough a series of projects over the past decade, we have been working to develop a better understanding of the consequences of endophyte infection. We’ve primarily been using Populus species as a model host for these experiments. Populus trichocarpa was the first tree to have its genome fully sequenced, and the (comparatively) fast growth and easy propagation of this genus from clonal cutting makes it useful to experiments.\nSome of the earliest studies we conducted were on Populus angustifolia (narrowleaf cottonwood), where we were looking at the effect of endophyte inoculation on pathogen damage (Busby et al. 2013).\nThrough a series of in vitro and in vivo inoculation experiments coupled with bright field and electron microscopy, we captured evidence that endophytes often enter the leaves through open stomatal pores (Huang, Zimmerman, and Arnold 2018).\nHere at USF, we have been working on a series of projects looking at foliar colonization of inoculated endophytes through staining and light microscopy (primarily led by undergraduate Natalie Ashburner-Wright) as well as a series of inoculation experiments in the greenhouse and in growth chambers to assess the functional consequences of these infections on host physiological performance. These experiments have been carried out both by Natalie and by MS student Jason Krastins alongside undergraduate Sayeh Jafari. Unfortunately a whole set of ongoing experiments in this focal area had to be shut down due to Spring 2020 COVID restrictions.\n\n\n\n\nReferences\n\nBusby, Posy E, Naupaka B. Zimmerman, David J Weston, Sara S Jawdy, Jos Houbraken, and George Newcombe. 2013. “Leaf Endophytes and Populus Genotype Affect Severity of Damage from the Necrotrophic Leaf Pathogen, Drepanopeziza Populi.” Ecosphere 4 (10): art125. https://doi.org/10.1890/ES13-00127.1.\n\n\nHuang, YL, NB Zimmerman, and AE Arnold. 2018. “Observations on the Early Establishment of Foliar Endophytic Fungi in Leaf Discs and Living Leaves of a Model Woody Angiosperm, Populus Trichocarpa (Salicaceae).” J Fungi (Basel) 4 (2). https://doi.org/10.3390/jof4020058."
+    "text": "Phyllosphere microbiomes of cover crops at Star Route Farms."
+  },
+  {
+    "objectID": "people/ug/nivedita_ghosh/index.html",
+    "href": "people/ug/nivedita_ghosh/index.html",
+    "title": "Nivedita Ghosh",
+    "section": "",
+    "text": "Nutrient analyses from a soil microcosm drought experiment."
+  },
+  {
+    "objectID": "people/ug/reina_rios/index.html",
+    "href": "people/ug/reina_rios/index.html",
+    "title": "Reina Rios",
+    "section": "",
+    "text": "Experimental inoculation of Arabidopsis thaliana with endophytes and their effects on VOC signaling."
+  },
+  {
+    "objectID": "people/ug/julian_murdzek/index.html",
+    "href": "people/ug/julian_murdzek/index.html",
+    "title": "Julian Murdzek",
+    "section": "",
+    "text": "Fungal endophytes of Metrosideros excelsa across San Francisco."
+  },
+  {
+    "objectID": "people/ug/ava_albert/index.html",
+    "href": "people/ug/ava_albert/index.html",
+    "title": "Ava Albert",
+    "section": "",
+    "text": "Bioinformatic analyses of plant metagenomes to extract symbiont reads."
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "open_science/index.html",
+    "href": "open_science/index.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "While there are numerous definitions of Open Science, many folks tend to emphasize the importance of open computational research practices and open access publishing. I like to remind myself that open science is and should be broader than that. Open science at its best is science that is not only transparent, reproducible, and freely available, but it is also science that is inclusive and open to other views. Below I’ve given some description of these various aspects of Open Science and places in my career where I’ve intersected with them.\nIn this lab, we aim to practice open science in its broadest sense to the best of our ability.\n\n\nFor most research in the STEM disciplines, there has been a big push to train scientists to use reproducible approaches to managing their data (Hart et al. 2016) and analyses (Hampton et al. 2015). Part of this is ensuring, as many journals now require, that the data and code used to generate the analyses in a published article are made available freely with the manuscript or in a public archival repository.\n\n\n\nEven if all code and data are freely available, being able to take the publicly available code and data and use them to re-run the analyses the authors conducted is often quite challenging. This is because the computational environment required to run the code may be quite specific to the individual scientist’s machine and not fully documented. To help mitigate this, analysis code can be made reusable and publicly available as a software package (e.g. an R package I helped write for analysis of terrestrial LiDAR data, Atkins et al. 2018).\nAnother important approach is having the pipeline or order of code execution well-documented or even better, automated. In all of my undergraduate courses at USF, I introduce students to the use of R and Rmarkdown to generate reproducible reports for their projects in class. For my graduate and undergraduate Bioinformatics courses, we go a step futher and learn the use of the program make for automating complex computational workflows in an efficient manner.\nHere’s an example of these approaches in practice. Emma Gibson was an honors undergraduate student in my lab at USF. She completed an honors thesis looking at communities of foliar endophytes in leaves of one of the most common street trees in San Francisco, Metrosideros excelsa. She conducted her analyses and wrote her thesis using R and Rmarkdown, and when we were ready to submit it for publication, we added the required computational environments to reproduce all analyses using Docker and renv. This project is available as a public repository on the Lab GitHub organization.\n\n\n\nPreprints are completed scientific manuscripts that are publicly posted and assigned a permanent Digital Object Identifier (DOI) through preprint archive servers like bioRxiv or EcoEvoRxiv. These have become much more popular in recent years, because they enable formal scientific exchanges and communication to happen much more rapidly than the months to years that it takes for a manuscript to work its way through peer review. Generally scientists will submit their complete manuscript both to a preprint server and to a journal for formal peer review at the same time, and then once the peer-reviewed article is accepted, the preprint is updated to reflect this fact. As preprints are freely available, posting them also helps advance the next goal, which is free and open access to research articles.\n\n\n\nOpen access publishing (at its core) is the idea that journal articles should not be locked behind paywalls. As much of the research in the United States (and elsewhere) is publicly funded, it doesn’t seem right to have the results of this work locked up and unavailable to most of the public (and even to many scientists who don’t have the means to afford access). This has become a key issue in the European Union and the US in the last several years, and soon I imagine this will become the status quo.\nOpen access publishing discussions also often involve a discussion of more open peer review. While it varies between disciplines, peer review in many journals is what is called ‘single blind’, which means that the reviewers know the identity of the author(s), but the author(s) doesn’t know the identities of the reviewers. This opacity can be both good and bad — it could protect more junior scientists from retaliation if they submit a negative review, but it also clearly results in a number of power imbalances that may not lead to optimal outcomes (such as reviewers writing overly critical reviews instead of offering constructive evaluation and feedback). When I was a graduate student, we worked with the editors of many of the journals published by the Ecological Society of America to think about ways that graduate students could become more involved in the review process and to build training programs that would help inculcate best practices at an early stage (Zimmerman, Salguero-Gomez, and Ramos 2011).\n\n\n\nDuring the time when I was a graduate student and postdoc, I became quite involved with the Ecological Society of America Student Section, eventually becoming chair of the section. One of the topics that repeatedly came up in discussions at that time was the lack of professional networks for students outside of countries with large professional societies in Ecology (e.g. the US and UK). With a team of other students and collaboration with the International Association for Ecology (INTECOL) we authored a number of articles articulating this problem and proposing some steps forward (Peter Sogaard Jørgensen et al. 2011; White et al. 2015; Peter Søgaard Jørgensen et al. 2015).\n\n\n\nIn the last several years, I have become involved with a collection of folks called the Microbes and Social Equity Working Group (Ishaq et al. 2021). Through this highly interdisciplinary group, I have helped to organize several sessions at ESA meetings over the years; these sessions were focused on widening the focus of microbial research to include the broader social context of the research as well as its implications for human communities."
+  },
+  {
+    "objectID": "open_science/index.html#what-do-we-mean-by-open-science",
+    "href": "open_science/index.html#what-do-we-mean-by-open-science",
+    "title": "Open Science",
+    "section": "",
+    "text": "While there are numerous definitions of Open Science, many folks tend to emphasize the importance of open computational research practices and open access publishing. I like to remind myself that open science is and should be broader than that. Open science at its best is science that is not only transparent, reproducible, and freely available, but it is also science that is inclusive and open to other views. Below I’ve given some description of these various aspects of Open Science and places in my career where I’ve intersected with them.\nIn this lab, we aim to practice open science in its broadest sense to the best of our ability.\n\n\nFor most research in the STEM disciplines, there has been a big push to train scientists to use reproducible approaches to managing their data (Hart et al. 2016) and analyses (Hampton et al. 2015). Part of this is ensuring, as many journals now require, that the data and code used to generate the analyses in a published article are made available freely with the manuscript or in a public archival repository.\n\n\n\nEven if all code and data are freely available, being able to take the publicly available code and data and use them to re-run the analyses the authors conducted is often quite challenging. This is because the computational environment required to run the code may be quite specific to the individual scientist’s machine and not fully documented. To help mitigate this, analysis code can be made reusable and publicly available as a software package (e.g. an R package I helped write for analysis of terrestrial LiDAR data, Atkins et al. 2018).\nAnother important approach is having the pipeline or order of code execution well-documented or even better, automated. In all of my undergraduate courses at USF, I introduce students to the use of R and Rmarkdown to generate reproducible reports for their projects in class. For my graduate and undergraduate Bioinformatics courses, we go a step futher and learn the use of the program make for automating complex computational workflows in an efficient manner.\nHere’s an example of these approaches in practice. Emma Gibson was an honors undergraduate student in my lab at USF. She completed an honors thesis looking at communities of foliar endophytes in leaves of one of the most common street trees in San Francisco, Metrosideros excelsa. She conducted her analyses and wrote her thesis using R and Rmarkdown, and when we were ready to submit it for publication, we added the required computational environments to reproduce all analyses using Docker and renv. This project is available as a public repository on the Lab GitHub organization.\n\n\n\nPreprints are completed scientific manuscripts that are publicly posted and assigned a permanent Digital Object Identifier (DOI) through preprint archive servers like bioRxiv or EcoEvoRxiv. These have become much more popular in recent years, because they enable formal scientific exchanges and communication to happen much more rapidly than the months to years that it takes for a manuscript to work its way through peer review. Generally scientists will submit their complete manuscript both to a preprint server and to a journal for formal peer review at the same time, and then once the peer-reviewed article is accepted, the preprint is updated to reflect this fact. As preprints are freely available, posting them also helps advance the next goal, which is free and open access to research articles.\n\n\n\nOpen access publishing (at its core) is the idea that journal articles should not be locked behind paywalls. As much of the research in the United States (and elsewhere) is publicly funded, it doesn’t seem right to have the results of this work locked up and unavailable to most of the public (and even to many scientists who don’t have the means to afford access). This has become a key issue in the European Union and the US in the last several years, and soon I imagine this will become the status quo.\nOpen access publishing discussions also often involve a discussion of more open peer review. While it varies between disciplines, peer review in many journals is what is called ‘single blind’, which means that the reviewers know the identity of the author(s), but the author(s) doesn’t know the identities of the reviewers. This opacity can be both good and bad — it could protect more junior scientists from retaliation if they submit a negative review, but it also clearly results in a number of power imbalances that may not lead to optimal outcomes (such as reviewers writing overly critical reviews instead of offering constructive evaluation and feedback). When I was a graduate student, we worked with the editors of many of the journals published by the Ecological Society of America to think about ways that graduate students could become more involved in the review process and to build training programs that would help inculcate best practices at an early stage (Zimmerman, Salguero-Gomez, and Ramos 2011).\n\n\n\nDuring the time when I was a graduate student and postdoc, I became quite involved with the Ecological Society of America Student Section, eventually becoming chair of the section. One of the topics that repeatedly came up in discussions at that time was the lack of professional networks for students outside of countries with large professional societies in Ecology (e.g. the US and UK). With a team of other students and collaboration with the International Association for Ecology (INTECOL) we authored a number of articles articulating this problem and proposing some steps forward (Peter Sogaard Jørgensen et al. 2011; White et al. 2015; Peter Søgaard Jørgensen et al. 2015).\n\n\n\nIn the last several years, I have become involved with a collection of folks called the Microbes and Social Equity Working Group (Ishaq et al. 2021). Through this highly interdisciplinary group, I have helped to organize several sessions at ESA meetings over the years; these sessions were focused on widening the focus of microbial research to include the broader social context of the research as well as its implications for human communities."
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "projects/index.html#microbial-biogeography",
+    "href": "projects/index.html#microbial-biogeography",
     "title": "Projects",
     "section": "",
     "text": "No matching items"
@@ -98,18 +140,95 @@
     "text": "Computational Training\n\n\n\n\n\n\n\n\n\n\nData4Ecology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Carpentries\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/function/neon_soils/index.html",
+    "href": "projects/function/neon_soils/index.html",
+    "title": "NEON Soil CO2 Efflux",
+    "section": "",
+    "text": "Modeling and measuring soil CO2 efflux across National Ecological Observatory Network (NEON) sites.\nThis is an ongoing project collaborative project funded by the National Science Foundation through the Macrosystems program. We are working with John Zobitz at Augsburg University in Minneapolis, MN, to develop a soil CO2 efflux data product for all core terrestrial National Ecological Observatory Network (NEON) sites. The core challenge is that NEON collects continuous data from soil sensors across all of its sites, but these data need to be combined into a diffusion model to estimate efflux and developing this model was descoped when NEON ran into budget constraints during the build-out phase.\nWe are combining model building (available as an in-development R package) with several years of field campaigns to NEON sites to collect on-site actual flux measurements to ground truth our model.\nWe are also running as part of this project a Faculty Mentoring Network through QUBES during the 2023 Spring semester."
+  },
+  {
+    "objectID": "projects/training/carpentries/index.html",
+    "href": "projects/training/carpentries/index.html",
+    "title": "The Carpentries",
+    "section": "",
+    "text": "Designing and maintaining open-source lesson materials for training scientists in open, reproducible computational research methods.\nThe Carpentries has been an influential organization in the computational training arena for more than a decade. It is a global volunteer-driven nonprofit that aims to increase the computational skills of scientists (and now librarians).\nLessons developed and maintained include R for Reproducible Scientific Analysis and Genomic Data Analysis and Visualization in R."
+  },
+  {
+    "objectID": "projects/biogeography/hawaii/index.html",
+    "href": "projects/biogeography/hawaii/index.html",
+    "title": "Biogeography of Metrosideros endophytes in Hawaiʻi",
+    "section": "",
+    "text": "Biogeography of tropical fungal endophytes at the landscape scale.\nWhat are the factors that structure host-associated microbial communities? Are they primarily based on abiotic factors like elevation, rainfall, and host nutrient status, or are they more influenced by biotic factors? This thread of work sought to pull those different factors apart by using an environmental matrix on Mauna Loa volcano in Hawaiʻi, where elevation and rainfall could be compared independently.\nThe results of this research (which was supported in part by a NSF DDIG) represents the core of my PhD conducted at Stanford University with Peter Vitousek. Using high-throughput amplicon sequencing of foliar samples of leaves of the Hawaiian endemic ʻōhiʻa tree (Metrosideros polymorpha, Myrtaceae), we found that endophyte communities were strongly structured at the landscape scale by environmental factors such as elevation and rainfall (Zimmerman and Vitousek 2012). This was one of the first studies to use high-throughput amplicon sequencing to study endophyte communities.\n\n\n\n\nReferences\n\nZimmerman, Naupaka B., and Peter M Vitousek. 2012. “Fungal Endophyte Communities Reflect Environmental Structuring Across a Hawaiian Landscape.” Proceedings of the National Academy of Sciences 109 (32): 13022–27. https://doi.org/10.1073/pnas.1209872109."
+  },
+  {
+    "objectID": "projects/biogeography/bay_area/index.html",
+    "href": "projects/biogeography/bay_area/index.html",
+    "title": "Bay Area sampling of Populus endophytes",
+    "section": "",
+    "text": "Quantifying the effects of host genetics on foliar fungal communities in a Populus hybrid zone.\nThis work was led by former MS student Josh Copeland and resulted in the first chapter of this MS thesis. He collected Populus spp. samples from Niles Canyon, located east of Fremont, CA. This location is interesting because it is a hybrid zone between black cottonwood (Populus trichocarpa) and Fremont’s cottonwood (Populus fremontii), leading to the establishment of a stable population of the hybrid Populus x parryi. We were able to sample from herbarium archival specimens at the California Academy of Sciences herbarium to verify the identity of the different individual trees.\nFrom the field samples, he did a high-throughput culture- and Sanger- based sequencing analysis to quantify community makeup across different host types and over time. These samples were then also used as focal fungal taxa for quantifying Volatile Organic Compound analysis using Gas Chromatography/Mass Spectrometry (GC/MS)."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are a USF undergraduate interested in joining the lab, send me an email and we can set up a time to talk about your experience, interests, and long-term goals. Not all research experiences are the same, so it’s important to think about what you would like to get out of the time you invest in the lab. Generally I expect students to be able to commit to around 10 hours a week during the semester. This is a big committment, but moving projects forward takes time, especially if you are learning new techniques for the first time. Depending on the number of students in the lab at the time you join, there may be funding available to pay you for the hours you work in the lab. If you have a work-study allocation as part of your financial aid package, please do mention that as well.\nTo get a sense for what previous undergraduates in the lab have worked on, you can check out their USF Creative Activity and Research Day posters:\n\n2018 — Urban Biogeography of Fungal Endophytes in Metrosideros excelsa Across San Francisco — Emma Gibson\n2020 — Symbiosis Between Arabidopsis thaliana and Colletotrichum tofieldiae for Enhanced Phytoremediation of Indoor Volatile Organic Compounds — Emre Ovet\n2020 — Phylogenetic Relationships of Foliar Bacteria Within Cover Crops in an Organic Cropping System — Marcello Kuan, Derek Newberger, Christina Tran\n2021 — Hidden Consequences: The Effects of Daikon Radish on the Microbial Communities of Purple Vetch in Cover Crop Mixtures — Marcello Kuan"
+  },
+  {
+    "objectID": "join.html#usf-undergraduates",
+    "href": "join.html#usf-undergraduates",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are a USF undergraduate interested in joining the lab, send me an email and we can set up a time to talk about your experience, interests, and long-term goals. Not all research experiences are the same, so it’s important to think about what you would like to get out of the time you invest in the lab. Generally I expect students to be able to commit to around 10 hours a week during the semester. This is a big committment, but moving projects forward takes time, especially if you are learning new techniques for the first time. Depending on the number of students in the lab at the time you join, there may be funding available to pay you for the hours you work in the lab. If you have a work-study allocation as part of your financial aid package, please do mention that as well.\nTo get a sense for what previous undergraduates in the lab have worked on, you can check out their USF Creative Activity and Research Day posters:\n\n2018 — Urban Biogeography of Fungal Endophytes in Metrosideros excelsa Across San Francisco — Emma Gibson\n2020 — Symbiosis Between Arabidopsis thaliana and Colletotrichum tofieldiae for Enhanced Phytoremediation of Indoor Volatile Organic Compounds — Emre Ovet\n2020 — Phylogenetic Relationships of Foliar Bacteria Within Cover Crops in an Organic Cropping System — Marcello Kuan, Derek Newberger, Christina Tran\n2021 — Hidden Consequences: The Effects of Daikon Radish on the Microbial Communities of Purple Vetch in Cover Crop Mixtures — Marcello Kuan"
+  },
+  {
+    "objectID": "join.html#prospective-ms-biology-students",
+    "href": "join.html#prospective-ms-biology-students",
+    "title": "Join the Lab",
+    "section": "Prospective MS Biology Students",
+    "text": "Prospective MS Biology Students\nUSF’s Biology Department has a small MS in Biology program. We accept between 2-5 students per cohort to work directly with a faculty mentor on a thesis project that is of mutual interest. All admitted students receive a full-tuition scholarship and have the ability to apply to be a Teaching Assistant to earn a stipend.\nThe most important thing to consider when joining a lab as part of a research-based Master’s degree is fit with the other members of the lab and alignment of research interests with the group. For serious potential applicants, we can set up meetings with other folks in the group and have a discussion about potential research projects. These discussions should happen before you apply.\nThe requirements for the MS degree in Biology include some coursework, but the primary task is to develop (in consultation with your mentor) a research project proposal, defend the proposal before a committee of faculty, complete the proposed research and write it up as a thesis, and then present and defend that thesis in a public defense and meeting with your thesis committee.\nTo get a sense of the scope of MS theses written by students in the program, you can browse recent theses in the USF Scholarship Repository."
+  },
+  {
+    "objectID": "join.html#prospective-postdoctoral-fellows",
+    "href": "join.html#prospective-postdoctoral-fellows",
+    "title": "Join the Lab",
+    "section": "Prospective Postdoctoral Fellows",
+    "text": "Prospective Postdoctoral Fellows\nWhile USF doesn’t have a large number of postdoctoral fellows, I am always willing to talk to interested folks who want to put together a proposal for fellowship funding. USF would be a great place to do a postdoc if you are interested in seeking an academic position in a teaching-focused institution for your career."
+  },
+  {
+    "objectID": "projects/biogeography/sf/index.html",
+    "href": "projects/biogeography/sf/index.html",
+    "title": "Urban Biogeography of fungal endophytes in San Francisco",
+    "section": "",
+    "text": "Biogeography of foliar fungi in leaves and in the air across the City of San Francisco.\nThe proportion of people living in cities continues to increase, and many research studies have suggested that the ecology of the urban environment can have important effects on the health of city residents. One component of this environment is the microbial communities that people are exposed to. How are endophytic communities associated with street trees and other plants growing throughout cities contributing to its microbial mileau?\nThis work was initially led by honors undergraduate Emma Gibson and culminated in her honors thesis, which is currently in review for publication and available as a fully producible manuscript on GitHub.\nIn brief, she collected samples from 30 trees across the city, and then did high-throughput culturing and sequencing of isolated fungal endophytes to identify the taxa. Her community ecology analyses showed that the communities are structured by site and likely influenced by the string climatic gradient across the city caused by onshore winds from the cold Pacific.\nYears after Emma graduated, MS graduate student Ashley Sango and undergraduate student Victoria Lamar teamed up to look at the distribution of airborne microbes and spores across the city and how this distribution intersected with air quality."
+  },
+  {
+    "objectID": "projects/training/data4ecology/index.html",
+    "href": "projects/training/data4ecology/index.html",
+    "title": "Data4Ecology",
+    "section": "",
+    "text": "Building a web-based platform for introducing computational training in undergraduate ecology courses.\nWhile the amount and diversity of data that is available to ecologists continues to grow rapidly, the skills and training required to fully make use of these burgeoning resources is lagging behind. One area where this could be ameliorated is in the facilitation of more data analysis and computational skills in undergraduate ecology curricula. This would set students up with the background they need to hit the ground running in a career or in graduate school, where they can build on a solid foundation to develop more specialized expertise.\nThis particular project is an ongoing NSF-funded collaboration that aims to build a computational platform for teaching data-centric ecology courses at the undergraduate level. It is being built on top of the STATS4STEM platform, with specific content being developed for an ecology-focused curriculum.\nWe are building R-based modules around the material in the open textbook Ecology for All! and incorporating data sources such as NEON and the LTER network."
+  },
+  {
+    "objectID": "projects/function/organic_agriculture/index.html",
+    "href": "projects/function/organic_agriculture/index.html",
+    "title": "Plant and soil microbes in organic agriculture",
+    "section": "",
+    "text": "Looking at the effects of plant-associated microbes in an organic cropping system.\nIn 2017, the University of San Francisco bought Star Route Farms, the oldest continuously certified organic farm in the state of California. The farm has continued to operate as a working farm, but it is now also being used as a site for research and teaching.\nA number of students in the lab over the years have worked on projects related to organic agriculture and have greatly benefitted from this relationship between the farm and university.\nA series of projects led by former MS student Derek Newberger; but also including undergraduates Marcello Kuan and Christina Tran; and high school student Amirtha Maria looked at the microbial communities (both fungi and bacteria) of different species of cover crops and assessed their contribution to soil microbial communities.\nMore recently, MS student Sarah Gao, along with undergraduate Nivedita Ghosh, worked to conduct a factorial drought and cover-cropping soil microcosm experiment. Sarah’s interest was on the impact of different periods of drought on the cycling of nutrients from cover crop incorporation and how this was mediated by microbial community shifts."
+  },
+  {
+    "objectID": "projects/function/populus_physiology/index.html",
+    "href": "projects/function/populus_physiology/index.html",
+    "title": "Endophyte effects on host physiology in Populus",
+    "section": "",
+    "text": "Experimental endophyte inoculation studies examining the effect of endophytes on host physiology and performance.\nFoliar endophytes live inside of all species of plant surveyed to date, generally without causing any visible symptoms. However, we still know little about the mechanism of these biotic interactions and their consequences.\nThrough a series of projects over the past decade, we have been working to develop a better understanding of the consequences of endophyte infection. We’ve primarily been using Populus species as a model host for these experiments. Populus trichocarpa was the first tree to have its genome fully sequenced, and the (comparatively) fast growth and easy propagation of this genus from clonal cutting makes it useful to experiments.\nSome of the earliest studies we conducted were on Populus angustifolia (narrowleaf cottonwood), where we were looking at the effect of endophyte inoculation on pathogen damage (Busby et al. 2013).\nThrough a series of in vitro and in vivo inoculation experiments coupled with bright field and electron microscopy, we captured evidence that endophytes often enter the leaves through open stomatal pores (Huang, Zimmerman, and Arnold 2018).\nHere at USF, we have been working on a series of projects looking at foliar colonization of inoculated endophytes through staining and light microscopy (primarily led by undergraduate Natalie Ashburner-Wright) as well as a series of inoculation experiments in the greenhouse and in growth chambers to assess the functional consequences of these infections on host physiological performance. These experiments have been carried out both by Natalie and by MS student Jason Krastins alongside undergraduate Sayeh Jafari. Unfortunately a whole set of ongoing experiments in this focal area had to be shut down due to Spring 2020 COVID restrictions.\n\n\n\n\nReferences\n\nBusby, Posy E, Naupaka B. Zimmerman, David J Weston, Sara S Jawdy, Jos Houbraken, and George Newcombe. 2013. “Leaf Endophytes and Populus Genotype Affect Severity of Damage from the Necrotrophic Leaf Pathogen, Drepanopeziza Populi.” Ecosphere 4 (10): art125. https://doi.org/10.1890/ES13-00127.1.\n\n\nHuang, YL, NB Zimmerman, and AE Arnold. 2018. “Observations on the Early Establishment of Foliar Endophytic Fungi in Leaf Discs and Living Leaves of a Model Woody Angiosperm, Populus Trichocarpa (Salicaceae).” J Fungi (Basel) 4 (2). https://doi.org/10.3390/jof4020058."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Phyllosphere Microbial Ecology @ USF",
     "section": "",
     "text": "Mastodon\n  \n  \n    \n     Lab Github\n  \n  \n    \n     Personal Github\n  \n  \n      Google Scholar\n  \n  \n      ORCID\n  \n\n  \n  \nWelcome to the website for the Zimmerman Lab at the University of San Francisco. Our research focuses on understanding the ecology and evolution of plant-associated microbes, with a special affection for foliar endophytic fungi.\nThe lab is led by Dr. Naupaka Zimmerman and is made up of many other wonderful folks, including undergraduate researchers, Master’s students, and sometimes even high school students or other visiting researchers.\nWe use a range of approaches in our research on plant-associated microbial communities. We often start with field work locally in the Bay Area, at NEON Field Sites across the country, or at USF’s Star Route Farms. After culturing and isolating microbes, we use manipulative greenhouse and growth-chamber studies, culture- and molecular-based lab work, bright field and electron microscopy, and finally a good amount of computational and bioinformatic analyses to probe microbial community composition and function.\nInformation about joining the lab is available here. Note that while USF does not have any PhD programs, we do have a thesis-based MS in Biology program."
-  },
-  {
-    "objectID": "open_science/index.html",
-    "href": "open_science/index.html",
-    "title": "Open Science",
-    "section": "",
-    "text": "While there are numerous definitions of Open Science, many folks tend to emphasize the importance of open computational research practices and open access publishing. I like to remind myself that open science is and should be broader than that. Open science at its best is science that is not only transparent, reproducible, and freely available, but it is also science that is inclusive and open to other views. Below I’ve given some description of these various aspects of Open Science and places in my career where I’ve intersected with them.\nIn this lab, we aim to practice open science in its broadest sense to the best of our ability.\n\n\nFor most research in the STEM disciplines, there has been a big push to train scientists to use reproducible approaches to managing their data (Hart et al. 2016) and analyses (Hampton et al. 2015). Part of this is ensuring, as many journals now require, that the data and code used to generate the analyses in a published article are made available freely with the manuscript or in a public archival repository.\n\n\n\nEven if all code and data are freely available, being able to take the publicly available code and data and use them to re-run the analyses the authors conducted is often quite challenging. This is because the computational environment required to run the code may be quite specific to the individual scientist’s machine and not fully documented. To help mitigate this, analysis code can be made reusable and publicly available as a software package (e.g. an R package I helped write for analysis of terrestrial LiDAR data, Atkins et al. 2018).\nAnother important approach is having the pipeline or order of code execution well-documented or even better, automated. In all of my undergraduate courses at USF, I introduce students to the use of R and Rmarkdown to generate reproducible reports for their projects in class. For my graduate and undergraduate Bioinformatics courses, we go a step futher and learn the use of the program make for automating complex computational workflows in an efficient manner.\nHere’s an example of these approaches in practice. Emma Gibson was an honors undergraduate student in my lab at USF. She completed an honors thesis looking at communities of foliar endophytes in leaves of one of the most common street trees in San Francisco, Metrosideros excelsa. She conducted her analyses and wrote her thesis using R and Rmarkdown, and when we were ready to submit it for publication, we added the required computational environments to reproduce all analyses using Docker and renv. This project is available as a public repository on the Lab GitHub organization.\n\n\n\nPreprints are completed scientific manuscripts that are publicly posted and assigned a permanent Digital Object Identifier (DOI) through preprint archive servers like bioRxiv or EcoEvoRxiv. These have become much more popular in recent years, because they enable formal scientific exchanges and communication to happen much more rapidly than the months to years that it takes for a manuscript to work its way through peer review. Generally scientists will submit their complete manuscript both to a preprint server and to a journal for formal peer review at the same time, and then once the peer-reviewed article is accepted, the preprint is updated to reflect this fact. As preprints are freely available, posting them also helps advance the next goal, which is free and open access to research articles.\n\n\n\nOpen access publishing (at its core) is the idea that journal articles should not be locked behind paywalls. As much of the research in the United States (and elsewhere) is publicly funded, it doesn’t seem right to have the results of this work locked up and unavailable to most of the public (and even to many scientists who don’t have the means to afford access). This has become a key issue in the European Union and the US in the last several years, and soon I imagine this will become the status quo.\nOpen access publishing discussions also often involve a discussion of more open peer review. While it varies between disciplines, peer review in many journals is what is called ‘single blind’, which means that the reviewers know the identity of the author(s), but the author(s) doesn’t know the identities of the reviewers. This opacity can be both good and bad — it could protect more junior scientists from retaliation if they submit a negative review, but it also clearly results in a number of power imbalances that may not lead to optimal outcomes (such as reviewers writing overly critical reviews instead of offering constructive evaluation and feedback). When I was a graduate student, we worked with the editors of many of the journals published by the Ecological Society of America to think about ways that graduate students could become more involved in the review process and to build training programs that would help inculcate best practices at an early stage (Zimmerman, Salguero-Gomez, and Ramos 2011).\n\n\n\nDuring the time when I was a graduate student and postdoc, I became quite involved with the Ecological Society of America Student Section, eventually becoming chair of the section. One of the topics that repeatedly came up in discussions at that time was the lack of professional networks for students outside of countries with large professional societies in Ecology (e.g. the US and UK). With a team of other students and collaboration with the International Association for Ecology (INTECOL) we authored a number of articles articulating this problem and proposing some steps forward (Peter Sogaard Jørgensen et al. 2011; White et al. 2015; Peter Søgaard Jørgensen et al. 2015).\n\n\n\nIn the last several years, I have become involved with a collection of folks called the Microbes and Social Equity Working Group (Ishaq et al. 2021). Through this highly interdisciplinary group, I have helped to organize several sessions at ESA meetings over the years; these sessions were focused on widening the focus of microbial research to include the broader social context of the research as well as its implications for human communities."
   },
   {
     "objectID": "blog/post-with-code/index.html",
@@ -119,15 +238,15 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Modern pedagogical research suggests that the primary role of teachers is not to teach, which implies the conveyance of a polished set of knowledge, but rather to facilitate learning. Deep learning and true understanding of concepts come from individuals confronting inconsistencies in the way they currently think a set of ideas fit together. Thus, the role of a teacher is to help students identify these areas where understanding is incomplete and then help them develop the skills of critical thinking and a facility with the tools that will allow the students to create new mental structures for themselves. Ultimately, the best teachers can instill in students the cognitive and technical skills, and more importantly the motivation and self-confidence, to enable them to become life-long, self-directed learners."
+  },
+  {
+    "objectID": "teaching/index.html#teaching-philosophy",
+    "href": "teaching/index.html#teaching-philosophy",
     "title": "Teaching",
     "section": "",
     "text": "Modern pedagogical research suggests that the primary role of teachers is not to teach, which implies the conveyance of a polished set of knowledge, but rather to facilitate learning. Deep learning and true understanding of concepts come from individuals confronting inconsistencies in the way they currently think a set of ideas fit together. Thus, the role of a teacher is to help students identify these areas where understanding is incomplete and then help them develop the skills of critical thinking and a facility with the tools that will allow the students to create new mental structures for themselves. Ultimately, the best teachers can instill in students the cognitive and technical skills, and more importantly the motivation and self-confidence, to enable them to become life-long, self-directed learners."
@@ -161,25 +280,11 @@
     "text": "Creating Belonging\nEngaging diverse trainees — at the undergraduate, graduate, and postgraduate levels — in a course of education that is structured around building in each of them the skills and habits of mind necessary to enable self-directed learning enables them to go on to apply those in all areas of their own lives, and in turn to impact others. The benefit is not just to the student, but to those the student interacts with now and into the future."
   },
   {
-    "objectID": "people/ug/ava_albert/index.html",
-    "href": "people/ug/ava_albert/index.html",
-    "title": "Ava Albert",
-    "section": "",
-    "text": "Bioinformatic analyses of plant metagenomes to extract symbiont reads."
-  },
-  {
     "objectID": "people/ug/emma_gibson/index.html",
     "href": "people/ug/emma_gibson/index.html",
     "title": "Emma Gibson",
     "section": "",
     "text": "Biogeography of fungal endophytes in Metrosideros excelsa across San Francisco.\nEmma was an undergraduate honors student in the lab. Her thesis is currently being reviewed for publication, and is available as a fully-reproducible manuscript on GitHub."
-  },
-  {
-    "objectID": "people/ug/julian_murdzek/index.html",
-    "href": "people/ug/julian_murdzek/index.html",
-    "title": "Julian Murdzek",
-    "section": "",
-    "text": "Fungal endophytes of Metrosideros excelsa across San Francisco."
   },
   {
     "objectID": "people/ug/victoria_lamar/index.html",
@@ -189,25 +294,11 @@
     "text": "Public health impacts of air quality and urban aerial microbiomes in San Francisco."
   },
   {
-    "objectID": "people/ug/reina_rios/index.html",
-    "href": "people/ug/reina_rios/index.html",
-    "title": "Reina Rios",
-    "section": "",
-    "text": "Experimental inoculation of Arabidopsis thaliana with endophytes and their effects on VOC signaling."
-  },
-  {
     "objectID": "people/ug/emre_ovet/index.html",
     "href": "people/ug/emre_ovet/index.html",
     "title": "Emre Ovet",
     "section": "",
     "text": "Experimental inoculation of Arabidopsis thaliana with endophytes and their effects on VOC signaling."
-  },
-  {
-    "objectID": "people/ug/nivedita_ghosh/index.html",
-    "href": "people/ug/nivedita_ghosh/index.html",
-    "title": "Nivedita Ghosh",
-    "section": "",
-    "text": "Nutrient analyses from a soil microcosm drought experiment."
   },
   {
     "objectID": "people/ug/sayeh_jafari/index.html",
@@ -217,25 +308,11 @@
     "text": "Experimental inoculation of Populus trichocarpa with endophytes to quantify effects on drought stress."
   },
   {
-    "objectID": "people/ug/christina_tran/index.html",
-    "href": "people/ug/christina_tran/index.html",
-    "title": "Christina Tran",
-    "section": "",
-    "text": "Phyllosphere microbiomes of cover crops at Star Route Farms."
-  },
-  {
     "objectID": "people/ug/natalie_ashburner_wright/index.html",
     "href": "people/ug/natalie_ashburner_wright/index.html",
     "title": "Natalie Ashburner-Wright",
     "section": "",
     "text": "Modulation of foliar transpiration by endophytes of Populus trichocarpa."
-  },
-  {
-    "objectID": "people/ug/marcello_kuan/index.html",
-    "href": "people/ug/marcello_kuan/index.html",
-    "title": "Marcello Kuan",
-    "section": "",
-    "text": "Phyllosphere bacterial communities from cover crops at Star Route Farms."
   },
   {
     "objectID": "people/grad/derek_newberger/index.html",
@@ -245,25 +322,11 @@
     "text": "Foliar and soil fungi associated with different cover crop species in an organic farming system."
   },
   {
-    "objectID": "people/grad/ashley_sango/index.html",
-    "href": "people/grad/ashley_sango/index.html",
-    "title": "Ashley Sango",
-    "section": "",
-    "text": "Public health and urban aerial microbiomes across the City of San Francisco."
-  },
-  {
     "objectID": "people/grad/jason_krastins/index.html",
     "href": "people/grad/jason_krastins/index.html",
     "title": "Jason Krastins",
     "section": "",
     "text": "Endophyte modulation of drought stress in Populus; Primer bias in high-throughput sequencing in an experimental rainforest (Biosphere2)."
-  },
-  {
-    "objectID": "people/grad/joshua_copeland/index.html",
-    "href": "people/grad/joshua_copeland/index.html",
-    "title": "Joshua Copeland",
-    "section": "",
-    "text": "Community ecology and VOC production by endophytes of Populus spp."
   },
   {
     "objectID": "people/grad/sarah_gao/index.html",
@@ -273,45 +336,10 @@
     "text": "Biogeochemistry and microbial ecology of interacting drought and cover crop amendment in an organic farming system."
   },
   {
-    "objectID": "people/index.html",
-    "href": "people/index.html",
-    "title": "People",
-    "section": "",
-    "text": "Pre-COVID Lab Group Meeting"
-  },
-  {
-    "objectID": "people/index.html#principal-investigator",
-    "href": "people/index.html#principal-investigator",
-    "title": "People",
-    "section": "Principal Investigator",
-    "text": "Principal Investigator\n\n\n\n\n\n\n\n\n\n\nNaupaka Zimmerman\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/index.html#current-undergraduate-students",
-    "href": "people/index.html#current-undergraduate-students",
-    "title": "People",
-    "section": "Current Undergraduate Students",
-    "text": "Current Undergraduate Students\n\n\n\n\n\n\n\n\n\n\nAva Albert\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people/index.html#alumni",
-    "href": "people/index.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\nGraduate Students\n\n\n\n\n\n\n\n\n\n\nAshley Sango\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDerek Newberger\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJason Krastins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoshua Copeland\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Gao\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nUndergraduate Students\n\n\n\n\n\n\n\n\n\n\nChristina Tran\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmma Gibson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmre Ovet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulian Murdzek\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarcello Kuan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatalie Ashburner-Wright\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNivedita Ghosh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReina Rios\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSayeh Jafari\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVictoria Lamar\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nHigh School Students\n\n\n\n\n\n\n\n\n\n\nAmirtha Maria\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "people/naupaka_zimmerman/index.html",
     "href": "people/naupaka_zimmerman/index.html",
     "title": "Naupaka Zimmerman",
     "section": "",
     "text": "Biogeography, ecological function, and evolution of plant microbiomes.\n Complete CV (updated March 2023)\n Naupaka Zimmerman is currently an Associate Professor in the Biology Department at the University of San Francisco, where he teaches courses in Microbiology, Ecology, Urban Ecology, California Ecology, and Bioinformatics (among others). He is broadly interested in the intersection between microbial community and ecosystem ecology, and is currently examining it in the context of endophytic fungal communities via next-gen molecular methods (e.g. Zimmerman et al. 2014). While these communities are incredibly diverse, particularly in the tropics, we know very little about their functions in ecosystems. Using a combination of field surveys and greenhouse manipulations, he is currently engaged in a number of different projects trying to understand what these enigmatic organisms are up to.\nPrior to USF, he was a postdoc at the University of Arizona as a Gordon and Betty Moore Fellow of the Life Sciences Research Foundation, working in the Arnold Lab. His work there focused on understanding the mechanisms of interaction between foliar endophytes and host (Huang, Zimmerman, and Arnold 2018) in black cottonwood (Populus trichocarpa), on the circumglobal biogeography of boreal endophytes (U’Ren et al. 2019), and the phylogenetic distinctness of endophytes in the Xylariaceae (U’Ren et al. 2016).\nHis PhD dissertation at Stanford (as part of the Vitousek Lab) focused primarily on the biogeography of communities of foliar fungal endophytes that inhabit the asymptomatic leaves of ʻōhiʻa (Metrosideros polymorpha), an endemic Hawaiian tree (Zimmerman and Vitousek 2012). He also worked on a number of collaborative projects examining the functional consequences of pathogen-endophyte-genotype interactions (Busby et al. 2013) in narrowleaf cottonwood (Populus angustifolia).\nAfter graduating from college, he spent a year in the Schrag geochemical oceanography lab as a technician reconstructing past climatic trends from oxygen isotope records in marine sulfate (e.g. Turchyn et al. 2009) and in cores from long-lived tropical tree species (e.g. Anchukaitis et al. 2008). He also spent a year teaching in Seoul, South Korea before starting grad school.\nHis undergrad degree was in Environmental Science and Public Policy and Social Anthropology at Harvard University. His interdisciplinary honors thesis focused on understanding how differing environmental conceptions (scientific, indigenous, economic, etc) play out in the construction of public narrative and policy. His ecological research during that time was focused on lowland wet forest communities along a substrate age (successional) gradient in Hawaiʻi, with particular focus on how invasive species alter the successional trajectories of these forests (Zimmerman et al. 2008).\n\n\n\n\nReferences\n\nAnchukaitis, K. J., M. N. Evans, N. T. Wheelwright, and D. P. Schrag. 2008. “Stable Isotope Chronology and Climate Signal Calibration in Neotropical Montane Cloud Forest Trees.” Journal of Geophysical Research 113 (G3). https://doi.org/10.1029/2007jg000613.\n\n\nBusby, Posy E, Naupaka B. Zimmerman, David J Weston, Sara S Jawdy, Jos Houbraken, and George Newcombe. 2013. “Leaf Endophytes and Populus Genotype Affect Severity of Damage from the Necrotrophic Leaf Pathogen, Drepanopeziza Populi.” Ecosphere 4 (10): art125. https://doi.org/10.1890/ES13-00127.1.\n\n\nHuang, YL, NB Zimmerman, and AE Arnold. 2018. “Observations on the Early Establishment of Foliar Endophytic Fungi in Leaf Discs and Living Leaves of a Model Woody Angiosperm, Populus Trichocarpa (Salicaceae).” J Fungi (Basel) 4 (2). https://doi.org/10.3390/jof4020058.\n\n\nTurchyn, Alexandra V., Daniel P. Schrag, Rodolfo Coccioni, and Alessandro Montanari. 2009. “Stable Isotope Analysis of the Cretaceous Sulfur Cycle.” Earth and Planetary Science Letters 285 (1-2): 115–23. https://doi.org/10.1016/j.epsl.2009.06.002.\n\n\nU’Ren, JM, F Lutzoni, J Miadlikowska, NB Zimmerman, I Carbone, G May, and AE Arnold. 2019. “Host Availability Drives Distributions of Fungal Endophytes in the Imperilled Boreal Realm.” Nat Ecol Evol 3 (10): 1430–37. https://doi.org/10.1038/s41559-019-0975-2.\n\n\nU’Ren, JM, J Miadlikowska, Naupaka B. Zimmerman, F Lutzoni, JE Stajich, and AE Arnold. 2016. “Contributions of North American Endophytes to the Phylogeny, Ecology, and Taxonomy of Xylariaceae (Sordariomycetes, Ascomycota).” Molecular Phylogenetics and Evolution 98: 210–32. https://doi.org/10.1016/j.ympev.2016.02.010.\n\n\nZimmerman, Naupaka B., R Flint Hughes, Susan Cordell, Patrick J Hart, Heather Kalei Chang, David Perez, Ryan Kaipoalohaakala Like, and Rebecca Ostertag. 2008. “Patterns of Primary Succession of Native and Introduced Plants in Lowland Wet Forests in Eastern Hawai’i.” Biotropica 40 (3): 277–84. https://doi.org/10.1111/j.1744-7429.2007.00371.x.\n\n\nZimmerman, Naupaka B., Jacques Izard, Christian Klatt, Jizhong Zhou, and Emma Aronson. 2014. “The Unseen World: Environmental Microbial Sequencing and Identification Methods for Ecologists.” Frontiers in Ecology and the Environment 12 (4): 224–31. https://doi.org/10.1890/130055.\n\n\nZimmerman, Naupaka B., and Peter M Vitousek. 2012. “Fungal Endophyte Communities Reflect Environmental Structuring Across a Hawaiian Landscape.” Proceedings of the National Academy of Sciences 109 (32): 13022–27. https://doi.org/10.1073/pnas.1209872109."
-  },
-  {
-    "objectID": "people/hs/amirtha_maria/index.html",
-    "href": "people/hs/amirtha_maria/index.html",
-    "title": "Amirtha Maria",
-    "section": "",
-    "text": "Phyllosphere bacteria of cover crops in an organic system; effects of aquatic nutrient levels on chlorophyll concentration across NEON sites."
   }
 ]

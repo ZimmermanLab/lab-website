@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -77,7 +77,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -89,11 +90,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Open Science</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../open_science/index.html">Open Science</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -101,47 +107,53 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../files/zlab_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../people/index.html" class="sidebar-item-text sidebar-link">People</a>
+  <a href="../people/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">People</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/index.html" class="sidebar-item-text sidebar-link">Projects</a>
+  <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../teaching/index.html" class="sidebar-item-text sidebar-link">Teaching</a>
+  <a href="../teaching/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../open_science/index.html" class="sidebar-item-text sidebar-link active">Open Science</a>
+  <a href="../open_science/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Open Science</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../join.html" class="sidebar-item-text sidebar-link">Join the Lab</a>
+  <a href="../join.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Join the Lab</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -165,7 +177,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Open Science</h1>
+<h1 class="title">Open Science</h1>
 </div>
 
 
@@ -216,29 +228,29 @@ div.csl-indent {
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-atkins2018" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-atkins2018" class="csl-entry" role="listitem">
 Atkins, Jeff W., Gil Bohrer, Robert T. Fahey, Brady S. Hardiman, Timothy H. Morin, Atticus E. L. Stovall, Naupaka Zimmerman, and Christopher M. Gough. 2018. <span>“Quantifying Vegetation and Canopy Structural Complexity from Terrestrial Li DAR Data Using the Forestr r Package.”</span> Edited by Sarah Goslee. <em>Methods in Ecology and Evolution</em> 9 (10): 2057–66. <a href="https://doi.org/10.1111/2041-210x.13061">https://doi.org/10.1111/2041-210x.13061</a>.
 </div>
-<div id="ref-hampton2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hampton2015" class="csl-entry" role="listitem">
 Hampton, Stephanie E., Sean S. Anderson, Sarah C. Bagby, Corinna Gries, Xueying Han, Edmund M. Hart, Matthew B. Jones, et al. 2015. <span>“The Tao of Open Science for Ecology.”</span> <em>Ecosphere</em> 6 (7): art120. <a href="https://doi.org/10.1890/ES14-00402.1">https://doi.org/10.1890/ES14-00402.1</a>.
 </div>
-<div id="ref-hart2016a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hart2016a" class="csl-entry" role="listitem">
 Hart, EM, P Barmby, D LeBauer, F Michonneau, S Mount, P Mulrooney, T Poisot, KH Woo, NB Zimmerman, and JW Hollister. 2016. <span>“Ten Simple Rules for Digital Data Storage.”</span> <em>PLoS Comput Biol</em> 12 (10): e1005097. <a href="https://doi.org/10.1371/journal.pcbi.1005097">https://doi.org/10.1371/journal.pcbi.1005097</a>.
 </div>
-<div id="ref-ishaq2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ishaq2021" class="csl-entry" role="listitem">
 Ishaq, Suzanne L., Francisco J. Parada, Patricia G. Wolf, Carla Y. Bonilla, Megan A. Carney, Amber Benezra, Emily Wissel, et al. 2021. <span>“Introducing the Microbes and Social Equity Working Group: Considering the Microbial Components of Social, Environmental, and Health Justice.”</span> Edited by Jack A. Gilbert. <em>mSystems</em> 6 (4). <a href="https://doi.org/10.1128/msystems.00471-21">https://doi.org/10.1128/msystems.00471-21</a>.
 </div>
-<div id="ref-jorgensen2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jorgensen2015" class="csl-entry" role="listitem">
 Jørgensen, Peter Søgaard, Frederic Barraquand, Vincent Bonhomme, Timothy J. Curran, Ellen Cieraad, Thomas G. Ezard, Laureano A. Gherardi, et al. 2015. <span>“Connecting People and Ideas from Around the World: Global Innovation Platforms for Next-Generation Ecology and Beyond.”</span> <em>Ecosphere</em> 6 (4): 1–11. <a href="https://doi.org/10.1890/ES14-00198.1">https://doi.org/10.1890/ES14-00198.1</a>.
 </div>
-<div id="ref-jorgensen2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jorgensen2011" class="csl-entry" role="listitem">
 Jørgensen, Peter Sogaard, Vincent Bonhomme, Thomas HG Ezard, R Andrew Hayes, Timothee Poisot, Roberto Salguero-Gomez, Salvatrice Vizzini, and Naupaka Zimmerman. 2011. <span>“A Global Network of Next Generation Ecologists.”</span> <em>INTECOL e-Bulletin</em> 5 (2): 3–5. <a href="https://www.researchgate.net/publication/228328646_A_global_network_of_next_generation_ecologists">https://www.researchgate.net/publication/228328646_A_global_network_of_next_generation_ecologists</a>.
 </div>
-<div id="ref-white2015a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-white2015a" class="csl-entry" role="listitem">
 White, Rachel L, Alexandra E Sutton, Roberto Salguero-Gómez, Timothy C Bray, Heather Campbell, Ellen Cieraad, Nalaka Geekiyanage, et al. 2015. <span>“The Next Generation of Action Ecology: Novel Approaches Towards Global Ecological Research.”</span> <em>Ecosphere</em> 6 (8): art134. <a href="https://doi.org/10.1890">https://doi.org/10.1890</a>.
 </div>
-<div id="ref-zimmerman2011a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zimmerman2011a" class="csl-entry" role="listitem">
 Zimmerman, Naupaka B., Rob Salguero-Gomez, and Jorge Ramos. 2011. <span>“The Next Generation of Peer Reviewing.”</span> <em>Frontiers in Ecology and the Environment</em> 9: 199. <a href="https://doi.org/10.1890/1540-9295-9.4.199">https://doi.org/10.1890/1540-9295-9.4.199</a>.
 </div>
 </div></section></div></main> <!-- /main -->
@@ -269,9 +281,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -336,6 +362,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -391,6 +503,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><i class="fa-regular fa-copyright" aria-label="copyright"></i> 2023 Naupaka Zimmerman, <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> CC-BY 4.0</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">This page is built with ️🌱🍄📊 and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

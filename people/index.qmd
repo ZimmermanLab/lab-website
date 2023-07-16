@@ -13,16 +13,6 @@ listing:
     grid-item-border: false
     grid-columns: 2
 
-  - id: current_ug_students
-    max-description-length: 500
-    image-height: 150px
-    fields: [image, title, description]
-    contents: 
-      - ug/ava_albert
-    type: grid
-    grid-item-border: false
-    grid-columns: 2
-
   - id: alum_grad_students
     max-description-length: 500
     image-height: 150px
@@ -42,6 +32,7 @@ listing:
     image-height: 150px
     fields: [image, title, description]
     contents: 
+      - ug/ava_albert
       - ug/natalie_ashburner_wright
       - ug/christina_tran
       - ug/emma_gibson
@@ -71,11 +62,6 @@ listing:
 ## Principal Investigator
 
 ::: {#pi}
-:::
-
-## Current Undergraduate Students
-
-::: {#current_ug_students}
 :::
 
 ## Alumni

@@ -95,34 +95,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current_ug_students .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current_ug_students'] = new List('listing-current_ug_students', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-alum_grad_students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -287,7 +259,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
-  <li><a href="#current-undergraduate-students" id="toc-current-undergraduate-students" class="nav-link" data-scroll-target="#current-undergraduate-students">Current Undergraduate Students</a></li>
   <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a>
   <ul class="collapse">
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
@@ -332,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
 <div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="people" data-listing-file-modified-sort="1678836054584" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-categories="people" data-listing-file-modified-sort="1689476969212" data-listing-reading-time-sort="2">
 <a href="../people/naupaka_zimmerman/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -344,33 +315,6 @@ Naupaka Zimmerman
 </h5>
 <div class="card-text listing-description">
 Biogeography, ecological function, and evolution of plant microbiomes.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="current-undergraduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="current-undergraduate-students">Current Undergraduate Students</h2>
-<div id="listing-current_ug_students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="people" data-listing-file-modified-sort="1678821972943" data-listing-reading-time-sort="1">
-<a href="../people/ug/ava_albert/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img src="../people/ug/ava_albert/ava.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ava Albert
-</h5>
-<div class="card-text listing-description">
-Bioinformatic analyses of plant metagenomes to extract symbiont reads.
 </div>
 </div>
 </div>
@@ -483,7 +427,24 @@ No matching items
 <h3 class="anchored" data-anchor-id="undergraduate-students">Undergraduate Students</h3>
 <div id="listing-alum_ug_students" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="people" data-listing-file-modified-sort="1678821995484" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="people" data-listing-file-modified-sort="1678821972943" data-listing-reading-time-sort="1">
+<a href="../people/ug/ava_albert/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img src="../people/ug/ava_albert/ava.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ava Albert
+</h5>
+<div class="card-text listing-description">
+Bioinformatic analyses of plant metagenomes to extract symbiont reads.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="people" data-listing-file-modified-sort="1678821995484" data-listing-reading-time-sort="1">
 <a href="../people/ug/christina_tran/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -500,7 +461,7 @@ Phyllosphere microbiomes of cover crops at Star Route Farms.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="people" data-listing-file-modified-sort="1678846562705" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="people" data-listing-file-modified-sort="1678846562705" data-listing-reading-time-sort="1">
 <a href="../people/ug/emma_gibson/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -517,7 +478,7 @@ Biogeography of fungal endophytes in <em>Metrosideros excelsa</em> across San Fr
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="people" data-listing-file-modified-sort="1678827500677" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="people" data-listing-file-modified-sort="1678827500677" data-listing-reading-time-sort="1">
 <a href="../people/ug/emre_ovet/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -534,7 +495,7 @@ Experimental inoculation of <em>Arabidopsis thaliana</em> with endophytes and th
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="people" data-listing-file-modified-sort="1678822225236" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-categories="people" data-listing-file-modified-sort="1678822225236" data-listing-reading-time-sort="1">
 <a href="../people/ug/julian_murdzek/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -551,7 +512,7 @@ Fungal endophytes of <em>Metrosideros excelsa</em> across San Francisco.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="people" data-listing-file-modified-sort="1678822241437" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="5" data-categories="people" data-listing-file-modified-sort="1678822241437" data-listing-reading-time-sort="1">
 <a href="../people/ug/marcello_kuan/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -568,7 +529,7 @@ Phyllosphere bacterial communities from cover crops at Star Route Farms.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="people" data-listing-file-modified-sort="1678827525252" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="6" data-categories="people" data-listing-file-modified-sort="1678827525252" data-listing-reading-time-sort="1">
 <a href="../people/ug/natalie_ashburner_wright/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -585,7 +546,7 @@ Modulation of foliar transpiration by endophytes of <em>Populus trichocarpa</em>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="people" data-listing-file-modified-sort="1678827555968" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="7" data-categories="people" data-listing-file-modified-sort="1678827555968" data-listing-reading-time-sort="1">
 <a href="../people/ug/nivedita_ghosh/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -602,7 +563,7 @@ Nutrient analyses from a soil microcosm drought experiment.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="people" data-listing-file-modified-sort="1678827570580" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="8" data-categories="people" data-listing-file-modified-sort="1678827570580" data-listing-reading-time-sort="1">
 <a href="../people/ug/reina_rios/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -619,7 +580,7 @@ Experimental inoculation of <em>Arabidopsis thaliana</em> with endophytes and th
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="people" data-listing-file-modified-sort="1678823751881" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="9" data-categories="people" data-listing-file-modified-sort="1678823751881" data-listing-reading-time-sort="1">
 <a href="../people/ug/sayeh_jafari/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -636,7 +597,7 @@ Experimental inoculation of <em>Populus trichocarpa</em> with endophytes to quan
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="people" data-listing-file-modified-sort="1678822555727" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="10" data-categories="people" data-listing-file-modified-sort="1678822555727" data-listing-reading-time-sort="1">
 <a href="../people/ug/victoria_lamar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">

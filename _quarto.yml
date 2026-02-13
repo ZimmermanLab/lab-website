@@ -7,7 +7,7 @@ website:
   title: "Zimmerman Lab"
 
   page-footer:
-    left: "{{< fa regular copyright >}} 2023 Naupaka Zimmerman, [{{< fa brands creative-commons-by >}} CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    left: "{{< fa regular copyright >}} 2026 Naupaka Zimmerman, [{{< fa brands creative-commons-by >}} CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     right: "This page is built with ️🌱🍄📊 and [Quarto](https://quarto.org/)."
 
   sidebar:

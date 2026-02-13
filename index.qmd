@@ -1,5 +1,5 @@
 ---
-title: "Phyllosphere Microbial Ecology @ USF"
+title: "Phyllosphere Microbial Ecology @ KU"
 image: files/stomata.jpg
 about:
   id: hero-heading
@@ -23,13 +23,13 @@ about:
 
 ::: {#hero-heading}
 
-Welcome to the website for the Zimmerman Lab at the [University of San Francisco](https://www.usfca.edu/). Our research focuses on understanding the ecology and evolution of plant-associated microbes, with a special affection for foliar endophytic fungi.
+Welcome to the website for the Zimmerman Lab at the [University of Kansas](https://www.ku.edu). Our research focuses on understanding the ecology and evolution of plant-associated microbes, with a special affection for foliar endophytic fungi.
 
-The lab is led by [Dr. Naupaka Zimmerman](people/naupaka_zimmerman/index.qmd) and is made up of [many other wonderful folks](people/index.qmd), including undergraduate researchers, Master's students, and sometimes even high school students or other visiting researchers.
+The lab is led by [Dr. Naupaka Zimmerman](people/naupaka_zimmerman/index.qmd), an Assistant Professor in the Environmental Studies Program at KU. Over the years the lab group has been made up of [many other wonderful folks](people/index.qmd), including undergraduate researchers, Master's students, and sometimes even high school students or other visiting researchers.
 
-We use a range of approaches in our [research](projects/index.qmd) on plant-associated microbial communities. We often start with field work locally in the Bay Area, at [NEON Field Sites](https://www.neonscience.org/field-sites) across the country, or at USF's [Star Route Farms](https://www.usfca.edu/faculty-research/star-route-farms). After culturing and isolating microbes, we use manipulative greenhouse and growth-chamber studies, culture- and molecular-based lab work, bright field and electron microscopy, and finally a good amount of computational and bioinformatic analyses to probe microbial community composition and function.
+We use a range of approaches in our [research](projects/index.qmd) on plant-associated microbial communities. We often start with field work locally in Kansas or at [NEON Field Sites](https://www.neonscience.org/field-sites) across the country. After culturing and isolating microbes, we use manipulative greenhouse and growth-chamber studies, culture- and molecular-based lab work, bright field and electron microscopy, and finally a good amount of computational and bioinformatic analyses to probe microbial community composition and function.
 
-Information about joining the lab is [available here](join.qmd). Note that while USF does not have any PhD programs, we do have a thesis-based [MS in Biology](https://www.usfca.edu/arts-sciences/programs/graduate/biology) program. 
+Information about joining the lab is [available here](join.qmd). Note that while KU Environmental Studies does not have any PhD programs, graduate admission may be possible through the [Ecology and Evolutionary Biology program](https://eeb.ku.edu/how-apply). 
 
 :::
 

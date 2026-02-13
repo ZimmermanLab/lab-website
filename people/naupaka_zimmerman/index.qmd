@@ -7,7 +7,7 @@ bibliography: ../../references.bib
 
 Biogeography, ecological function, and evolution of plant microbiomes.
 
-{{< fa file-pdf >}} [Complete CV (updated September 2023)](../../files/Zimmerman_CV.pdf)
+{{< fa file-pdf >}} [Complete CV (updated February 2026)](../../files/Zimmerman_CV.pdf)
 
 <img src="laptop_nz.jpg" align = "left" width = 40% style="margin:15px"> Naupaka Zimmerman is currently an Assistant Professor in the [Environmental Studies Program](https://esp.ku.edu) at the [University of Kansas](https://www.ku.edu). Prior to starting at KU, he was an Associate Professor in the [Biology Department](https://www.usfca.edu/arts-sciences/programs/undergraduate/biology/faculty) at the [University of San Francisco](https://usfca.edu), where he [taught](../../teaching/index.qmd) courses in Microbiology, Ecology, Urban Ecology, California Ecology, and Bioinformatics (among others). He is broadly interested in the intersection between microbial community and ecosystem ecology, and is currently examining it in the context of endophytic fungal communities via next-gen molecular methods [e.g. @zimmerman2014]. While these communities are incredibly diverse, particularly in the tropics, we know very little about their functions in ecosystems. Using a combination of field surveys and greenhouse manipulations, he is currently engaged in [a number of different projects](../../projects/index.qmd) trying to understand what these enigmatic organisms are up to.
 

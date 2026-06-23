@@ -1,7 +1,7 @@
 ---
 title: "People"
 description: |
-  Current and past members of the Zimmerman Lab at USF.
+  Current and past members of the Zimmerman Lab.
 listing:
   - id: pi
     max-description-length: 500
